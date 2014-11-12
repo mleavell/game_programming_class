@@ -1,0 +1,52 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{
+    frame=tb,
+    tabsize=4,
+    showstringspaces=false,
+    numbers=left,
+    commentstyle=\color{green},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red}
+}
+
+\title{String Character Remover}
+
+\author{Edward Seim}
+
+\date{Novemeber 11, 2014}
+
+\begin{document}
+
+\maketitle
+
+\section{Summary}
+
+This was my first solo attempt at coding C++. I had a difficult time understanding the difference between all the new operations I'm unfamiliar with in C++. It is by far the lowest language I've ever worked in. The task I chose was to make a function that took in a string and a character. It would then find and remove the first instance of that character. I've never had to important something as fundamental as string, but apparently thats how C++ works for you. The conventions for how certian string operations work is also different. I'm used to an indexOf function returning -1 if it is unable to find a character. The samples I found all pointed to comparing it to this string::npos which is C++'s way of showing that. Also, the substring function takes in the starting position, but instead of going up to the second position, it counts from the starting position up to the inputted value, therby making the second input a count rather than a position.
+
+\section{Code Snapshot}
+
+\begin{lstlisting}[language=C++, caption={C++ code using listings}]
+string remove (string input, char character) {
+    string result;
+    if (input.find(character) != string::npos) {
+        int loc = input.find(character);
+        int numOfLetters = input.length() - loc;
+        string begin = input.substr(0, loc);
+        string end = input.substr(loc+1, numOfLetters);
+        result = begin + end;
+    } else {
+        result = input;
+    }
+    return result;
+}
+\end{lstlisting}
+
+\end{document}

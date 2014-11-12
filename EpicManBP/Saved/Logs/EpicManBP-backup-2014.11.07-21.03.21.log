@@ -1,0 +1,613 @@
+﻿Log file open, 11/07/14 20:42:33
+LogInit:Display: Running engine for game: EpicManBP
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.08-04.42.33:749][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.08-04.42.33:777][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.08-04.42.33:839][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.08-04.42.33:853][  0]LogInit: Object subsystem initialized
+[2014.11.08-04.42.33:864][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.08-04.42.33:864][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.08-04.42.33:864][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.08-04.42.33:864][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.08-04.42.33:870][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.08-04.42.33:870][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.08-04.42.33:885][  0]LogInit: Computer: XPS3
+[2014.11.08-04.42.33:885][  0]LogInit: User: Maurice
+[2014.11.08-04.42.33:886][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.08-04.42.33:886][  0]LogInit: High frequency timer resolution =3.312724 MHz
+[2014.11.08-04.42.33:886][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx) Virtual=8192.0GB
+[2014.11.08-04.42.33:886][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.08-04.42.33:886][  0]LogMemory: Process Physical Memory: 63.04 MB used, 63.04 MB peak
+[2014.11.08-04.42.33:886][  0]LogMemory: Process Virtual Memory: 38.38 MB used, 38.38 MB peak
+[2014.11.08-04.42.33:886][  0]LogMemory: Physical Memory: 3629.65 MB used, 24527.21 MB total
+[2014.11.08-04.42.33:886][  0]LogMemory: Virtual Memory: 270.46 MB used, 8388608.00 MB total
+[2014.11.08-04.42.33:928][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 (Feature Level 11_0)
+[2014.11.08-04.42.33:928][  0]LogD3D11RHI: Adapter has 1484MB of dedicated video memory, 0MB of dedicated system memory, and 2560MB of shared system memory, 2 output[s]
+[2014.11.08-04.42.33:928][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.08-04.42.33:933][  0]LogRHI: Texture pool is 1039 MB (70% of 1484 MB)
+[2014.11.08-04.42.33:941][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.08-04.42.34:184][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.08-04.42.34:336][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.08-04.42.38:923][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.08-04.42.39:341][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.08-04.42.39:389][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.08-04.42.39:497][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.08-04.42.39:497][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.08-04.42.39:497][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.08-04.42.39:497][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.08-04.42.39:555][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.08-04.42.39:566][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Maurice/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.08-04.42.41:472][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.08-04.42.41:472][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.08-04.42.41:785][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.08-04.42.41:796][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.08-04.42.42:113][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.08-04.42.43:830][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.08-04.42.44:085][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Binaries/Win64. Error: 0
+[2014.11.08-04.42.44:321][  0]SourceControl: Info Source control is disabled
+[2014.11.08-04.42.44:321][  0]SourceControl: Info Source control is disabled
+[2014.11.08-04.42.44:325][  0]SourceControl: Info Source control is disabled
+[2014.11.08-04.42.44:461][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.08-04.42.44:461][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.08-04.42.44:531][  0]LogEngine: Initializing Engine...
+[2014.11.08-04.42.44:697][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.08-04.42.44:704][  0]LogInit: FAudioDevice initialized.
+[2014.11.08-04.42.44:761][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.08-04.42.44:784][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.08-04.42.44:787][  0]LogInit: Texture streaming: Enabled
+[2014.11.08-04.42.44:818][  0]LogInit: Transaction tracking system initialized
+[2014.11.08-04.42.44:895][  0]BlueprintLog: New page: Editor Load
+[2014.11.08-04.42.44:929][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2014.11.08-04.42.44:929][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.08-04.42.45:279][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.08-04.42.45:504][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.08-04.42.45:706][  0]LogConsoleResponse:Display: 
+[2014.11.08-04.42.45:993][  0]SourceControl: Info Source control is disabled
+[2014.11.08-04.42.45:994][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.08-04.42.45:997][  0]LightingResults: New page: Lighting Build
+[2014.11.08-04.42.46:009][  0]MapCheck: New page: Map Check
+[2014.11.08-04.42.46:009][  0]LightingResults: New page: Lighting Build
+[2014.11.08-04.42.46:027][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000170A5A80
+[2014.11.08-04.42.46:544][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.08-04.42.46:544][  0]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.11.08-04.42.46:546][  0]Cmd: MAP CHECKDEP
+[2014.11.08-04.42.46:546][  0]MapCheck: New page: EpicManLevel - Nov 7, 2014, 12:42:46 PM
+[2014.11.08-04.42.46:612][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.289ms to complete.
+[2014.11.08-04.42.46:612][  0]LogFileHelpers: Loading map 'EpicManLevel' took 0.618
+[2014.11.08-04.42.46:792][  0]LogCollectionManager: Loaded 0 collections in 0.001739 seconds
+[2014.11.08-04.42.47:074][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.08-04.42.47:110][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.08-04.42.47:135][  0]LogLoad: Full Startup: 16.81 seconds (BP compile: 0.16 seconds)
+[2014.11.08-04.42.47:670][  0]LogRenderer:Warning: Reallocating scene render targets to support 736x856.
+[2014.11.08-04.42.47:929][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/HUD'
+[2014.11.08-04.42.49:937][  7]LogAssetRegistry: Asset discovery search completed in 5.0204 seconds
+[2014.11.08-04.43.04:050][ 51]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.08-04.43.04:050][ 51]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.11.08-04.43.04:223][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.08-04.43.04:250][ 51]LogPlayLevel: PIE:  Blueprint regeneration took 200 ms (1 blueprints)
+[2014.11.08-04.43.04:251][ 51]PIE: New page: PIE session: EpicManLevel (Nov 7, 2014, 12:43:04 PM)
+[2014.11.08-04.43.04:259][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008570s)
+[2014.11.08-04.43.04:260][ 51]LogPlayLevel: PIE: World Init took: (0.000348s)
+[2014.11.08-04.43.04:260][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.009066s)
+[2014.11.08-04.43.04:301][ 51]LogWorld: Game class is 'MyGame_C'
+[2014.11.08-04.43.04:307][ 51]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.11.08-04.43.04:309][ 51]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.11.07-20.43.04
+[2014.11.08-04.43.04:311][ 51]LogWorld: Bringing up level for play took: 0.004041
+[2014.11.08-04.43.04:462][ 51]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel -0.246
+[2014.11.08-04.43.06:855][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009D6EAC0
+[2014.11.08-04.43.12:796][967]Cmd: MAP LOAD FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.08-04.43.12:797][967]LightingResults: New page: Lighting Build
+[2014.11.08-04.43.12:825][967]LoadErrors: New page: Loading map: MainMenu.umap
+[2014.11.08-04.43.12:826][967]MapCheck: New page: Map Check
+[2014.11.08-04.43.12:826][967]LightingResults: New page: Lighting Build
+[2014.11.08-04.43.12:840][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B3534C0
+[2014.11.08-04.43.12:915][967]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.08-04.43.12:915][967]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.08-04.43.12:957][967]Cmd: MAP CHECKDEP
+[2014.11.08-04.43.12:957][967]MapCheck: New page: MainMenu - Nov 7, 2014, 12:43:12 PM
+[2014.11.08-04.43.13:033][967]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.798ms to complete.
+[2014.11.08-04.43.13:033][967]LogFileHelpers: Loading map 'MainMenu' took 0.238
+[2014.11.08-04.43.13:692][ 41]LogEditorViewport: Clicking Background
+[2014.11.08-04.43.14:723][162]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.08-04.43.14:723][162]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.08-04.43.14:752][162]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2014.11.08-04.43.14:784][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.08-04.43.14:801][162]LogPlayLevel: PIE:  Blueprint regeneration took 77 ms (2 blueprints)
+[2014.11.08-04.43.14:801][162]PIE: New page: PIE session: MainMenu (Nov 7, 2014, 12:43:14 PM)
+[2014.11.08-04.43.14:801][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000610s)
+[2014.11.08-04.43.14:802][162]LogPlayLevel: PIE: World Init took: (0.000419s)
+[2014.11.08-04.43.14:802][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001129s)
+[2014.11.08-04.43.14:831][162]LogWorld: Game class is 'MyGame_C'
+[2014.11.08-04.43.14:832][162]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.08-04.43.14:832][162]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2014.11.07-20.43.14
+[2014.11.08-04.43.14:832][162]LogWorld: Bringing up level for play took: 0.000270
+[2014.11.08-04.43.14:835][162]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.127
+[2014.11.08-04.43.15:499][235]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve EpicManLevel.umap
+[2014.11.08-04.43.15:533][235]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve EpicManLevel.umap
+[2014.11.08-04.43.15:534][235]LogNet: Browse: /Game/Maps/EpicManLevel
+[2014.11.08-04.43.15:534][235]LogLoad: LoadMap: /Game/Maps/EpicManLevel
+[2014.11.08-04.43.15:548][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D627CE0
+[2014.11.08-04.43.15:548][235]Cmd: MEM
+[2014.11.08-04.43.15:562][235]LogMemory: Platform Memory Stats for Windows
+[2014.11.08-04.43.15:562][235]LogMemory: Process Physical Memory: 556.66 MB used, 633.71 MB peak
+[2014.11.08-04.43.15:562][235]LogMemory: Process Virtual Memory: 469.11 MB used, 550.84 MB peak
+[2014.11.08-04.43.15:562][235]LogMemory: Physical Memory: 4196.25 MB used, 24527.21 MB total
+[2014.11.08-04.43.15:562][235]LogMemory: Virtual Memory: 981.75 MB used, 8388608.00 MB total
+[2014.11.08-04.43.15:562][235]LogMemory: 
+[2014.11.08-04.43.15:562][235]Allocator Stats for TBB: (not implemented)
+[2014.11.08-04.43.15:831][235]LogWorld: Game class is 'MyGame_C'
+[2014.11.08-04.43.15:832][235]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.11.08-04.43.15:838][235]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.11.07-20.43.15
+[2014.11.08-04.43.15:838][235]LogWorld: Bringing up level for play took: 0.005760
+[2014.11.08-04.43.17:053][359]LogBlueprintUserMessages: 100
+[2014.11.08-04.43.17:349][393]LogBlueprintUserMessages: 200
+[2014.11.08-04.43.17:524][414]LogBlueprintUserMessages: 300
+[2014.11.08-04.43.17:674][432]LogBlueprintUserMessages: 400
+[2014.11.08-04.43.17:817][449]LogBlueprintUserMessages: 500
+[2014.11.08-04.43.17:958][466]LogBlueprintUserMessages: 600
+[2014.11.08-04.43.18:100][483]LogBlueprintUserMessages: 700
+[2014.11.08-04.43.18:246][500]LogBlueprintUserMessages: 800
+[2014.11.08-04.43.18:387][517]LogBlueprintUserMessages: 900
+[2014.11.08-04.43.18:529][534]LogBlueprintUserMessages: 1000
+[2014.11.08-04.43.18:672][551]LogBlueprintUserMessages: 1100
+[2014.11.08-04.43.18:814][568]LogBlueprintUserMessages: 1200
+[2014.11.08-04.43.18:955][585]LogBlueprintUserMessages: 1300
+[2014.11.08-04.43.19:097][602]LogBlueprintUserMessages: 1400
+[2014.11.08-04.43.19:247][620]LogBlueprintUserMessages: 1500
+[2014.11.08-04.43.19:385][636]LogBlueprintUserMessages: 1600
+[2014.11.08-04.43.19:531][653]LogBlueprintUserMessages: 1700
+[2014.11.08-04.43.19:675][670]LogBlueprintUserMessages: 1800
+[2014.11.08-04.43.19:813][686]LogBlueprintUserMessages: 1900
+[2014.11.08-04.43.19:955][703]LogBlueprintUserMessages: 2000
+[2014.11.08-04.43.20:097][720]LogBlueprintUserMessages: 2100
+[2014.11.08-04.43.20:247][738]LogBlueprintUserMessages: 2200
+[2014.11.08-04.43.20:389][755]LogBlueprintUserMessages: 2300
+[2014.11.08-04.43.20:526][771]LogBlueprintUserMessages: 2400
+[2014.11.08-04.43.20:668][788]LogBlueprintUserMessages: 2500
+[2014.11.08-04.43.20:818][806]LogBlueprintUserMessages: 2600
+[2014.11.08-04.43.21:026][831]LogBlueprintUserMessages: 2700
+[2014.11.08-04.43.21:176][849]LogBlueprintUserMessages: 2800
+[2014.11.08-04.43.21:318][866]LogBlueprintUserMessages: 2900
+[2014.11.08-04.43.21:460][883]LogBlueprintUserMessages: 3000
+[2014.11.08-04.43.21:597][899]LogBlueprintUserMessages: 3100
+[2014.11.08-04.43.21:747][917]LogBlueprintUserMessages: 3200
+[2014.11.08-04.43.21:889][934]LogBlueprintUserMessages: 3300
+[2014.11.08-04.43.22:030][951]LogBlueprintUserMessages: 3400
+[2014.11.08-04.43.22:172][968]LogBlueprintUserMessages: 3500
+[2014.11.08-04.43.22:314][985]LogBlueprintUserMessages: 3600
+[2014.11.08-04.43.22:455][  2]LogBlueprintUserMessages: 3700
+[2014.11.08-04.43.22:597][ 19]LogBlueprintUserMessages: 3800
+[2014.11.08-04.43.22:743][ 36]LogBlueprintUserMessages: 3900
+[2014.11.08-04.43.22:884][ 53]LogBlueprintUserMessages: 4000
+[2014.11.08-04.43.23:026][ 70]LogBlueprintUserMessages: 4100
+[2014.11.08-04.43.23:101][ 79]LogBlueprintUserMessages: 4200
+[2014.11.08-04.43.23:243][ 96]LogBlueprintUserMessages: 4300
+[2014.11.08-04.43.23:384][113]LogBlueprintUserMessages: 4400
+[2014.11.08-04.43.23:526][130]LogBlueprintUserMessages: 4500
+[2014.11.08-04.43.23:676][148]LogBlueprintUserMessages: 4600
+[2014.11.08-04.43.23:814][164]LogBlueprintUserMessages: 4700
+[2014.11.08-04.43.23:956][181]LogBlueprintUserMessages: 4800
+[2014.11.08-04.43.24:097][198]LogBlueprintUserMessages: 4900
+[2014.11.08-04.43.24:247][216]LogBlueprintUserMessages: 5000
+[2014.11.08-04.43.24:331][226]LogBlueprintUserMessages: 5100
+[2014.11.08-04.43.24:472][243]LogBlueprintUserMessages: 5200
+[2014.11.08-04.43.24:622][261]LogBlueprintUserMessages: 5300
+[2014.11.08-04.43.24:765][278]LogBlueprintUserMessages: 5400
+[2014.11.08-04.43.24:903][294]LogBlueprintUserMessages: 5500
+[2014.11.08-04.43.25:044][311]LogBlueprintUserMessages: 5600
+[2014.11.08-04.43.25:194][329]LogBlueprintUserMessages: 5700
+[2014.11.08-04.43.25:336][346]LogBlueprintUserMessages: 5800
+[2014.11.08-04.43.25:478][363]LogBlueprintUserMessages: 5900
+[2014.11.08-04.43.25:620][380]LogBlueprintUserMessages: 6000
+[2014.11.08-04.43.25:761][397]LogBlueprintUserMessages: 6100
+[2014.11.08-04.43.25:903][414]LogBlueprintUserMessages: 6200
+[2014.11.08-04.43.26:040][430]LogBlueprintUserMessages: 6300
+[2014.11.08-04.43.26:190][448]LogBlueprintUserMessages: 6400
+[2014.11.08-04.43.26:332][465]LogBlueprintUserMessages: 6500
+[2014.11.08-04.43.26:473][482]LogBlueprintUserMessages: 6600
+[2014.11.08-04.43.26:615][499]LogBlueprintUserMessages: 6700
+[2014.11.08-04.43.26:757][516]LogBlueprintUserMessages: 6800
+[2014.11.08-04.43.26:898][533]LogBlueprintUserMessages: 6900
+[2014.11.08-04.43.27:040][550]LogBlueprintUserMessages: 7000
+[2014.11.08-04.43.27:186][567]LogBlueprintUserMessages: 7100
+[2014.11.08-04.43.27:327][584]LogBlueprintUserMessages: 7200
+[2014.11.08-04.43.27:469][601]LogBlueprintUserMessages: 7300
+[2014.11.08-04.43.27:619][619]LogBlueprintUserMessages: 7400
+[2014.11.08-04.43.27:761][636]LogBlueprintUserMessages: 7500
+[2014.11.08-04.43.27:903][653]LogBlueprintUserMessages: 7600
+[2014.11.08-04.43.28:045][670]LogBlueprintUserMessages: 7700
+[2014.11.08-04.43.28:190][687]LogBlueprintUserMessages: 7800
+[2014.11.08-04.43.28:332][704]LogBlueprintUserMessages: 7900
+[2014.11.08-04.43.28:473][721]LogBlueprintUserMessages: 8000
+[2014.11.08-04.43.28:590][735]LogBlueprintUserMessages: 8100
+[2014.11.08-04.43.28:732][752]LogBlueprintUserMessages: 8200
+[2014.11.08-04.43.28:873][769]LogBlueprintUserMessages: 8300
+[2014.11.08-04.43.29:023][787]LogBlueprintUserMessages: 8400
+[2014.11.08-04.43.29:165][804]LogBlueprintUserMessages: 8500
+[2014.11.08-04.43.29:719][870]LogBlueprintUserMessages: 8600
+[2014.11.08-04.43.29:894][891]LogBlueprintUserMessages: 8700
+[2014.11.08-04.43.30:035][908]LogBlueprintUserMessages: 8800
+[2014.11.08-04.43.30:619][978]LogBlueprintUserMessages: 8900
+[2014.11.08-04.43.30:797][999]LogBlueprintUserMessages: 9000
+[2014.11.08-04.43.30:939][ 16]LogBlueprintUserMessages: 9100
+[2014.11.08-04.43.31:081][ 33]LogBlueprintUserMessages: 9200
+[2014.11.08-04.43.31:222][ 50]LogBlueprintUserMessages: 9300
+[2014.11.08-04.43.31:364][ 67]LogBlueprintUserMessages: 9400
+[2014.11.08-04.43.31:506][ 84]LogBlueprintUserMessages: 9500
+[2014.11.08-04.43.31:656][102]LogBlueprintUserMessages: 9600
+[2014.11.08-04.43.31:792][118]LogBlueprintUserMessages: 9700
+[2014.11.08-04.43.31:934][135]LogBlueprintUserMessages: 9800
+[2014.11.08-04.43.32:084][153]LogBlueprintUserMessages: 9900
+[2014.11.08-04.43.32:226][170]LogBlueprintUserMessages: 10000
+[2014.11.08-04.43.32:368][187]LogBlueprintUserMessages: 10100
+[2014.11.08-04.43.32:509][204]LogBlueprintUserMessages: 10200
+[2014.11.08-04.43.32:651][221]LogBlueprintUserMessages: 10300
+[2014.11.08-04.43.32:793][238]LogBlueprintUserMessages: 10400
+[2014.11.08-04.43.32:938][255]LogBlueprintUserMessages: 10500
+[2014.11.08-04.43.33:079][272]LogBlueprintUserMessages: 10600
+[2014.11.08-04.43.33:221][289]LogBlueprintUserMessages: 10700
+[2014.11.08-04.43.33:363][306]LogBlueprintUserMessages: 10800
+[2014.11.08-04.43.33:513][324]LogBlueprintUserMessages: 10900
+[2014.11.08-04.43.33:654][341]LogBlueprintUserMessages: 11000
+[2014.11.08-04.43.33:796][358]LogBlueprintUserMessages: 11100
+[2014.11.08-04.43.33:941][375]LogBlueprintUserMessages: 11200
+[2014.11.08-04.43.34:083][392]LogBlueprintUserMessages: 11300
+[2014.11.08-04.43.34:266][414]LogBlueprintUserMessages: 11400
+[2014.11.08-04.43.34:408][431]LogBlueprintUserMessages: 11500
+[2014.11.08-04.43.34:550][448]LogBlueprintUserMessages: 11600
+[2014.11.08-04.43.34:733][470]LogBlueprintUserMessages: 11700
+[2014.11.08-04.43.34:875][487]LogBlueprintUserMessages: 11800
+[2014.11.08-04.43.35:020][504]LogBlueprintUserMessages: 11900
+[2014.11.08-04.43.35:161][521]LogBlueprintUserMessages: 12000
+[2014.11.08-04.43.35:687][584]LogBlueprintUserMessages: 12100
+[2014.11.08-04.43.35:928][613]LogBlueprintUserMessages: 12200
+[2014.11.08-04.43.36:641][698]LogBlueprintUserMessages: 12300
+[2014.11.08-04.43.36:783][715]LogBlueprintUserMessages: 12400
+[2014.11.08-04.43.36:924][732]LogBlueprintUserMessages: 12500
+[2014.11.08-04.43.37:066][749]LogBlueprintUserMessages: 12600
+[2014.11.08-04.43.37:211][766]LogBlueprintUserMessages: 12700
+[2014.11.08-04.43.37:361][784]LogBlueprintUserMessages: 12800
+[2014.11.08-04.43.37:503][801]LogBlueprintUserMessages: 12900
+[2014.11.08-04.43.37:644][818]LogBlueprintUserMessages: 13000
+[2014.11.08-04.43.37:728][828]LogBlueprintUserMessages: 13100
+[2014.11.08-04.43.37:870][845]LogBlueprintUserMessages: 13200
+[2014.11.08-04.43.38:453][915]LogBlueprintUserMessages: 13300
+[2014.11.08-04.43.38:631][936]LogBlueprintUserMessages: 13400
+[2014.11.08-04.43.39:533][ 44]LogBlueprintUserMessages: 13500
+[2014.11.08-04.43.42:061][347]LogBlueprintUserMessages: 13600
+[2014.11.08-04.43.42:206][364]LogBlueprintUserMessages: 13700
+[2014.11.08-04.43.42:348][381]LogBlueprintUserMessages: 13800
+[2014.11.08-04.43.42:490][398]LogBlueprintUserMessages: 13900
+[2014.11.08-04.43.42:631][415]LogBlueprintUserMessages: 14000
+[2014.11.08-04.43.42:773][432]LogBlueprintUserMessages: 14100
+[2014.11.08-04.43.42:956][454]LogBlueprintUserMessages: 14200
+[2014.11.08-04.43.43:098][471]LogBlueprintUserMessages: 14300
+[2014.11.08-04.43.44:052][585]LogBlueprintUserMessages: 14400
+[2014.11.08-04.43.44:202][603]LogBlueprintUserMessages: 14500
+[2014.11.08-04.43.44:347][620]LogBlueprintUserMessages: 14600
+[2014.11.08-04.43.44:488][637]LogBlueprintUserMessages: 14700
+[2014.11.08-04.43.44:630][654]LogBlueprintUserMessages: 14800
+[2014.11.08-04.43.44:772][671]LogBlueprintUserMessages: 14900
+[2014.11.08-04.43.44:922][689]LogBlueprintUserMessages: 15000
+[2014.11.08-04.43.46:031][822]LogBlueprintUserMessages: 15100
+[2014.11.08-04.43.46:176][839]LogBlueprintUserMessages: 15200
+[2014.11.08-04.43.46:317][856]LogBlueprintUserMessages: 15300
+[2014.11.08-04.43.46:459][873]LogBlueprintUserMessages: 15400
+[2014.11.08-04.43.46:609][891]LogBlueprintUserMessages: 15500
+[2014.11.08-04.43.46:767][910]LogBlueprintUserMessages: 15600
+[2014.11.08-04.43.46:909][927]LogBlueprintUserMessages: 15700
+[2014.11.08-04.43.47:051][944]LogBlueprintUserMessages: 15800
+[2014.11.08-04.43.47:712][ 23]LogBlueprintUserMessages: 15900
+[2014.11.08-04.43.47:913][ 47]LogBlueprintUserMessages: 16000
+[2014.11.08-04.43.48:321][ 96]LogBlueprintUserMessages: 16100
+[2014.11.08-04.43.48:549][123]LogBlueprintUserMessages: 16200
+[2014.11.08-04.43.50:725][384]LogBlueprintUserMessages: 16300
+[2014.11.08-04.43.50:961][412]LogBlueprintUserMessages: 16400
+[2014.11.08-04.43.51:119][431]LogBlueprintUserMessages: 16500
+[2014.11.08-04.43.51:261][448]LogBlueprintUserMessages: 16600
+[2014.11.08-04.43.51:411][466]LogBlueprintUserMessages: 16700
+[2014.11.08-04.43.51:553][483]LogBlueprintUserMessages: 16800
+[2014.11.08-04.43.52:136][553]LogBlueprintUserMessages: 16900
+[2014.11.08-04.43.52:314][574]LogBlueprintUserMessages: 17000
+[2014.11.08-04.43.53:832][756]LogBlueprintUserMessages: 17100
+[2014.11.08-04.43.53:968][772]LogBlueprintUserMessages: 17200
+[2014.11.08-04.43.54:118][790]LogBlueprintUserMessages: 17300
+[2014.11.08-04.43.54:686][858]LogBlueprintUserMessages: 17400
+[2014.11.08-04.43.54:886][882]LogBlueprintUserMessages: 17500
+[2014.11.08-04.43.55:039][900]LogBlueprintUserMessages: 17600
+[2014.11.08-04.43.55:481][953]LogBlueprintUserMessages: 17700
+[2014.11.08-04.43.55:706][980]LogBlueprintUserMessages: 17800
+[2014.11.08-04.43.56:891][122]LogBlueprintUserMessages: 17900
+[2014.11.08-04.43.57:038][139]LogBlueprintUserMessages: 18000
+[2014.11.08-04.43.57:180][156]LogBlueprintUserMessages: 18100
+[2014.11.08-04.43.57:689][217]LogBlueprintUserMessages: 18200
+[2014.11.08-04.43.57:906][243]LogBlueprintUserMessages: 18300
+[2014.11.08-04.43.58:067][262]LogBlueprintUserMessages: 18400
+[2014.11.08-04.43.58:142][271]LogBlueprintUserMessages: 18500
+[2014.11.08-04.43.58:285][288]LogBlueprintUserMessages: 18600
+[2014.11.08-04.44.01:912][723]LogBlueprintUserMessages: 18700
+[2014.11.08-04.44.02:057][740]LogBlueprintUserMessages: 18800
+[2014.11.08-04.44.02:198][757]LogBlueprintUserMessages: 18900
+[2014.11.08-04.44.02:340][774]LogBlueprintUserMessages: 19000
+[2014.11.08-04.44.02:482][791]LogBlueprintUserMessages: 19100
+[2014.11.08-04.44.02:623][808]LogBlueprintUserMessages: 19200
+[2014.11.08-04.44.02:765][825]LogBlueprintUserMessages: 19300
+[2014.11.08-04.44.02:915][843]LogBlueprintUserMessages: 19400
+[2014.11.08-04.44.03:051][859]LogBlueprintUserMessages: 19500
+[2014.11.08-04.44.04:226][  0]LogBlueprintUserMessages: 19600
+[2014.11.08-04.44.04:371][ 17]LogBlueprintUserMessages: 19700
+[2014.11.08-04.44.04:663][ 52]LogBlueprintUserMessages: 19800
+[2014.11.08-04.44.04:805][ 69]LogBlueprintUserMessages: 19900
+[2014.11.08-04.44.04:947][ 86]LogBlueprintUserMessages: 20000
+[2014.11.08-04.44.05:088][103]LogBlueprintUserMessages: 20100
+[2014.11.08-04.44.05:230][120]LogBlueprintUserMessages: 20200
+[2014.11.08-04.44.07:525][395]LogBlueprintUserMessages: 20300
+[2014.11.08-04.44.07:661][411]LogBlueprintUserMessages: 20400
+[2014.11.08-04.44.07:811][429]LogBlueprintUserMessages: 20500
+[2014.11.08-04.44.07:953][446]LogBlueprintUserMessages: 20600
+[2014.11.08-04.44.08:094][463]LogBlueprintUserMessages: 20700
+[2014.11.08-04.44.08:236][480]LogBlueprintUserMessages: 20800
+[2014.11.08-04.44.08:378][497]LogBlueprintUserMessages: 20900
+[2014.11.08-04.44.08:519][514]LogBlueprintUserMessages: 21000
+[2014.11.08-04.44.08:661][531]LogBlueprintUserMessages: 21100
+[2014.11.08-04.44.08:798][547]LogBlueprintUserMessages: 21200
+[2014.11.08-04.44.08:940][564]LogBlueprintUserMessages: 21300
+[2014.11.08-04.44.09:082][581]LogBlueprintUserMessages: 21400
+[2014.11.08-04.44.09:266][603]LogBlueprintUserMessages: 21500
+[2014.11.08-04.44.09:407][620]LogBlueprintUserMessages: 21600
+[2014.11.08-04.44.09:699][655]LogBlueprintUserMessages: 21700
+[2014.11.08-04.44.09:835][671]LogBlueprintUserMessages: 21800
+[2014.11.08-04.44.09:985][689]LogBlueprintUserMessages: 21900
+[2014.11.08-04.44.10:127][706]LogBlueprintUserMessages: 22000
+[2014.11.08-04.44.10:269][723]LogBlueprintUserMessages: 22100
+[2014.11.08-04.44.12:079][940]LogBlueprintUserMessages: 22200
+[2014.11.08-04.44.12:223][957]LogBlueprintUserMessages: 22300
+[2014.11.08-04.44.12:364][974]LogBlueprintUserMessages: 22400
+[2014.11.08-04.44.12:506][991]LogBlueprintUserMessages: 22500
+[2014.11.08-04.44.12:648][  8]LogBlueprintUserMessages: 22600
+[2014.11.08-04.44.12:815][ 28]LogBlueprintUserMessages: 22700
+[2014.11.08-04.44.12:956][ 45]LogBlueprintUserMessages: 22800
+[2014.11.08-04.44.13:106][ 63]LogBlueprintUserMessages: 22900
+[2014.11.08-04.44.13:242][ 79]LogBlueprintUserMessages: 23000
+[2014.11.08-04.44.13:392][ 97]LogBlueprintUserMessages: 23100
+[2014.11.08-04.44.13:534][114]LogBlueprintUserMessages: 23200
+[2014.11.08-04.44.13:675][131]LogBlueprintUserMessages: 23300
+[2014.11.08-04.44.13:800][146]LogBlueprintUserMessages: 23400
+[2014.11.08-04.44.13:942][163]LogBlueprintUserMessages: 23500
+[2014.11.08-04.44.14:092][181]LogBlueprintUserMessages: 23600
+[2014.11.08-04.44.14:234][198]LogBlueprintUserMessages: 23700
+[2014.11.08-04.44.14:377][215]LogBlueprintUserMessages: 23800
+[2014.11.08-04.44.14:519][232]LogBlueprintUserMessages: 23900
+[2014.11.08-04.44.14:661][249]LogBlueprintUserMessages: 24000
+[2014.11.08-04.44.14:802][266]LogBlueprintUserMessages: 24100
+[2014.11.08-04.44.14:944][283]LogBlueprintUserMessages: 24200
+[2014.11.08-04.44.15:086][300]LogBlueprintUserMessages: 24300
+[2014.11.08-04.44.15:228][317]LogBlueprintUserMessages: 24400
+[2014.11.08-04.44.15:311][327]LogBlueprintUserMessages: 24500
+[2014.11.08-04.44.15:456][344]LogBlueprintUserMessages: 24600
+[2014.11.08-04.44.15:597][361]LogBlueprintUserMessages: 24700
+[2014.11.08-04.44.17:228][554]LogBlueprintUserMessages: 24800
+[2014.11.08-04.44.17:363][570]LogBlueprintUserMessages: 24900
+[2014.11.08-04.44.17:514][588]LogBlueprintUserMessages: 25000
+[2014.11.08-04.44.17:655][605]LogBlueprintUserMessages: 25100
+[2014.11.08-04.44.17:789][621]LogBlueprintUserMessages: 25200
+[2014.11.08-04.44.17:930][638]LogBlueprintUserMessages: 25300
+[2014.11.08-04.44.18:072][655]LogBlueprintUserMessages: 25400
+[2014.11.08-04.44.18:214][672]LogBlueprintUserMessages: 25500
+[2014.11.08-04.44.18:355][689]LogBlueprintUserMessages: 25600
+[2014.11.08-04.44.20:268][918]LogBlueprintUserMessages: 25700
+[2014.11.08-04.44.20:412][935]LogBlueprintUserMessages: 25800
+[2014.11.08-04.44.22:653][204]LogBlueprintUserMessages: 25900
+[2014.11.08-04.44.22:789][220]LogBlueprintUserMessages: 26000
+[2014.11.08-04.44.22:939][238]LogBlueprintUserMessages: 26100
+[2014.11.08-04.44.23:081][255]LogBlueprintUserMessages: 26200
+[2014.11.08-04.44.23:764][337]LogBlueprintUserMessages: 26300
+[2014.11.08-04.44.23:908][354]LogBlueprintUserMessages: 26400
+[2014.11.08-04.44.24:050][371]LogBlueprintUserMessages: 26500
+[2014.11.08-04.44.24:542][430]LogBlueprintUserMessages: 26600
+[2014.11.08-04.44.24:742][454]LogBlueprintUserMessages: 26700
+[2014.11.08-04.44.24:892][472]LogBlueprintUserMessages: 26800
+[2014.11.08-04.44.24:953][479]LogBlueprintUserMessages: 26900
+[2014.11.08-04.44.25:095][496]LogBlueprintUserMessages: 27000
+[2014.11.08-04.44.25:803][581]LogBlueprintUserMessages: 27100
+[2014.11.08-04.44.25:945][598]LogBlueprintUserMessages: 27200
+[2014.11.08-04.44.26:088][615]LogBlueprintUserMessages: 27300
+[2014.11.08-04.44.26:255][635]LogBlueprintUserMessages: 27400
+[2014.11.08-04.44.26:397][652]LogBlueprintUserMessages: 27500
+[2014.11.08-04.44.26:539][669]LogBlueprintUserMessages: 27600
+[2014.11.08-04.44.26:706][689]LogBlueprintUserMessages: 27700
+[2014.11.08-04.44.26:848][706]LogBlueprintUserMessages: 27800
+[2014.11.08-04.44.27:957][839]LogBlueprintUserMessages: 27900
+[2014.11.08-04.44.28:101][856]LogBlueprintUserMessages: 28000
+[2014.11.08-04.44.28:243][873]LogBlueprintUserMessages: 28100
+[2014.11.08-04.44.28:384][890]LogBlueprintUserMessages: 28200
+[2014.11.08-04.44.29:052][970]LogBlueprintUserMessages: 28300
+[2014.11.08-04.44.29:196][987]LogBlueprintUserMessages: 28400
+[2014.11.08-04.44.29:338][  4]LogBlueprintUserMessages: 28500
+[2014.11.08-04.44.32:071][332]LogBlueprintUserMessages: 28600
+[2014.11.08-04.44.32:283][357]LogBlueprintUserMessages: 28700
+[2014.11.08-04.44.32:433][375]LogBlueprintUserMessages: 28800
+[2014.11.08-04.44.32:574][392]LogBlueprintUserMessages: 28900
+[2014.11.08-04.44.32:716][409]LogBlueprintUserMessages: 29000
+[2014.11.08-04.44.33:158][462]LogBlueprintUserMessages: 29100
+[2014.11.08-04.44.33:303][479]LogBlueprintUserMessages: 29200
+[2014.11.08-04.44.33:445][496]LogBlueprintUserMessages: 29300
+[2014.11.08-04.44.33:587][513]LogBlueprintUserMessages: 29400
+[2014.11.08-04.44.33:729][530]LogBlueprintUserMessages: 29500
+[2014.11.08-04.44.33:871][547]LogBlueprintUserMessages: 29600
+[2014.11.08-04.44.34:013][564]LogBlueprintUserMessages: 29700
+[2014.11.08-04.44.34:154][581]LogBlueprintUserMessages: 29800
+[2014.11.08-04.44.43:861][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D1B2160
+[2014.11.08-04.46.49:043][211]Cmd: MAP LOAD FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.08-04.46.49:043][211]LightingResults: New page: Lighting Build
+[2014.11.08-04.46.49:072][211]LoadErrors: New page: Loading map: MainMenu.umap
+[2014.11.08-04.46.49:072][211]MapCheck: New page: Map Check
+[2014.11.08-04.46.49:072][211]LightingResults: New page: Lighting Build
+[2014.11.08-04.46.49:085][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E111DA0
+[2014.11.08-04.46.49:131][211]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.08-04.46.49:131][211]LogAIModule: Creating AISystem for world MainMenu
+[2014.11.08-04.46.49:181][211]Cmd: MAP CHECKDEP
+[2014.11.08-04.46.49:181][211]MapCheck: New page: MainMenu - Nov 7, 2014, 12:46:49 PM
+[2014.11.08-04.46.49:259][211]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.302ms to complete.
+[2014.11.08-04.46.49:259][211]LogFileHelpers: Loading map 'MainMenu' took 0.219
+[2014.11.08-04.47.13:569][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.08-04.47.13:585][917]Cmd: MAP LOAD FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.08-04.47.13:585][917]LightingResults: New page: Lighting Build
+[2014.11.08-04.47.13:613][917]LoadErrors: New page: Loading map: EpicManLevel.umap
+[2014.11.08-04.47.13:613][917]MapCheck: New page: Map Check
+[2014.11.08-04.47.13:613][917]LightingResults: New page: Lighting Build
+[2014.11.08-04.47.13:627][917]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E222D40
+[2014.11.08-04.47.13:751][917]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.08-04.47.13:751][917]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.11.08-04.47.13:793][917]Cmd: MAP CHECKDEP
+[2014.11.08-04.47.13:793][917]MapCheck: New page: EpicManLevel - Nov 7, 2014, 12:47:13 PM
+[2014.11.08-04.47.13:869][917]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.628ms to complete.
+[2014.11.08-04.47.13:869][917]LogFileHelpers: Loading map 'EpicManLevel' took 0.286
+[2014.11.08-04.48.20:194][101]LogEditorTransaction: Undo Add Widget
+[2014.11.08-04.48.42:161][661]LogEditorTransaction: Undo Edit Image
+[2014.11.08-04.49.46:657][547]LogMaterial:Warning: Material /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial needed to have new flag set bUsedWithUI !
+[2014.11.08-04.49.46:658][547]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling.
+[2014.11.08-04.49.46:693][547]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.08-04.49.51:686][100]LogMaterial:Warning: Material /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/FlowMaps.FlowMaps needed to have new flag set bUsedWithUI !
+[2014.11.08-04.49.51:688][100]LogMaterial: Missing cached shader map for material FlowMaps, compiling.
+[2014.11.08-04.49.51:731][100]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.08-04.52.16:477][484]LogEditorTransaction: Undo Edit Period
+[2014.11.08-04.54.52:609][ 89]LogEditorTransaction: Undo Edit Size To Content
+[2014.11.08-04.54.52:956][111]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-04.55.13:608][559]LogEditorTransaction: Undo Edit ZOrder
+[2014.11.08-04.57.13:576][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.08-04.57.13:597][705]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.021
+[2014.11.08-04.57.13:606][705]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial] ([1] browsable assets)...
+[2014.11.08-04.57.13:629][705]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial.FloorPlaneMaterial]
+[2014.11.08-04.57.13:629][705]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial]
+[2014.11.08-04.57.13:969][705]LogSavePackage: Save=298.373169ms
+[2014.11.08-04.57.13:969][705]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/FloorPlaneMaterial_Auto1CF2B7EBA4F2A45B5A9B4529FAE5E4D71.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Engine/EditorMaterials/Thumbnails/FloorPlaneMaterial_Auto1.uasset'
+[2014.11.08-04.57.13:982][705]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/EpicManHUD] ([1] browsable assets)...
+[2014.11.08-04.57.13:999][705]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/EpicManHUD]
+[2014.11.08-04.57.14:001][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/EpicManHUD" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/HUD/EpicManHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.08-04.57.14:030][705]LogSavePackage: Save=8.077039ms
+[2014.11.08-04.57.14:030][705]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManHUD_Auto1F31F026949E97B51A69ECABC8E13C514.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/HUD/EpicManHUD_Auto1.uasset'
+[2014.11.08-04.57.14:042][705]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/FlowMaps] ([1] browsable assets)...
+[2014.11.08-04.57.14:061][705]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/FlowMaps.FlowMaps]
+[2014.11.08-04.57.14:061][705]OBJ SavePackage: Finished generating thumbnails for package [/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/FlowMaps]
+[2014.11.08-04.57.14:232][705]LogSavePackage: Save=145.746216ms
+[2014.11.08-04.57.14:232][705]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/FlowMaps_Auto1182AF1A24F07002318822EB00C557254.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/FlowMaps_Auto1.uasset'
+[2014.11.08-04.57.14:236][705]LogFileHelpers: Auto-saving content packages took 0.639
+[2014.11.08-04.57.45:395][438]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-04.58.47:597][777]LogMaterial:Warning: Material /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/testDynamicbranch.testDynamicbranch needed to have new flag set bUsedWithUI !
+[2014.11.08-04.58.47:598][777]LogMaterial: Missing cached shader map for material testDynamicbranch, compiling.
+[2014.11.08-04.58.47:605][777]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.08-04.59.00:332][218]LogMaterial:Warning: Material /Engine/EditorMaterials/TerrainLayerBrowser/TLB_Closed_MAT.TLB_Closed_MAT needed to have new flag set bUsedWithUI !
+[2014.11.08-04.59.00:333][218]LogMaterial: Missing cached shader map for material TLB_Closed_MAT, compiling.
+[2014.11.08-04.59.00:340][218]LogMaterial: 0.000167 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.08-04.59.06:690][941]LogMaterial:Warning: Material /Engine/EditorMaterials/TerrainLayerBrowser/TLB_HeightMap_Alpha_MAT.TLB_HeightMap_Alpha_MAT needed to have new flag set bUsedWithUI !
+[2014.11.08-04.59.06:691][941]LogMaterial: Missing cached shader map for material TLB_HeightMap_Alpha_MAT, compiling.
+[2014.11.08-04.59.06:706][941]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.08-04.59.14:474][817]LogMaterial:Warning: Material /Engine/EditorMaterials/TerrainLayerBrowser/TLB_SolidOff_MAT.TLB_SolidOff_MAT needed to have new flag set bUsedWithUI !
+[2014.11.08-04.59.14:475][817]LogMaterial: Missing cached shader map for material TLB_SolidOff_MAT, compiling.
+[2014.11.08-04.59.14:482][817]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.08-04.59.18:330][251]LogMaterial:Warning: Material /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.TutorialTPP_Mat needed to have new flag set bUsedWithUI !
+[2014.11.08-04.59.18:331][251]LogMaterial: Missing cached shader map for material TutorialTPP_Mat, compiling.
+[2014.11.08-04.59.18:347][251]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.08-04.59.29:610][499]LogMaterial:Warning: Material /Engine/EngineDebugMaterials/VertexColorViewMode_BlueOnly.VertexColorViewMode_BlueOnly needed to have new flag set bUsedWithUI !
+[2014.11.08-04.59.29:610][499]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling.
+[2014.11.08-04.59.29:615][499]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.08-05.02.56:848][478]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-05.02.58:974][691]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.02.59:220][719]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.02.59:425][742]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.02.59:631][765]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.02.59:852][790]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.00:340][847]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.01:053][931]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.01:307][960]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.01:537][986]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.01:809][ 17]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.02:031][ 42]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.02:293][ 72]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.02:565][103]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.02:853][136]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-05.03.03:124][167]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-05.03.03:421][201]LogEditorTransaction: Undo Edit Number Of Pieces
+[2014.11.08-05.03.03:675][227]LogEditorTransaction: Undo Edit Number Of Pieces
+[2014.11.08-05.03.03:921][255]LogEditorTransaction: Undo Edit Number Of Pieces
+[2014.11.08-05.03.04:160][282]LogEditorTransaction: Undo Edit Number Of Pieces
+[2014.11.08-05.03.04:431][313]LogEditorTransaction: Undo Edit Number Of Pieces
+[2014.11.08-05.03.04:694][343]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-05.03.05:207][403]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-05.03.05:462][432]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.05:683][457]LogEditorTransaction: Undo Edit Image
+[2014.11.08-05.03.06:096][505]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-05.03.06:401][540]LogEditorTransaction: Undo Edit Specified Color
+[2014.11.08-05.03.06:648][568]LogEditorTransaction: Undo Edit Specified Color
+[2014.11.08-05.03.06:869][593]LogEditorTransaction: Undo Edit Specified Color
+[2014.11.08-05.03.07:124][622]LogEditorTransaction: Undo Edit Specified Color
+[2014.11.08-05.03.07:337][646]LogEditorTransaction: Undo Edit Tiling
+[2014.11.08-05.03.07:560][671]LogEditorTransaction: Undo Edit Tiling
+[2014.11.08-05.03.07:797][698]LogEditorTransaction: Undo Edit Tiling
+[2014.11.08-05.03.08:043][726]LogEditorTransaction: Undo Edit Tiling
+[2014.11.08-05.03.08:298][755]LogEditorTransaction: Undo Move Widget
+[2014.11.08-05.03.08:569][786]LogEditorTransaction: Undo Edit Radius
+[2014.11.08-05.03.08:874][821]LogEditorTransaction: Undo Edit Period
+[2014.11.08-05.03.09:146][852]LogEditorTransaction: Undo Edit Period
+[2014.11.08-05.03.09:416][883]LogEditorTransaction: Undo Edit Period
+[2014.11.08-05.03.09:704][916]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-05.03.09:959][945]LogEditorTransaction: Undo Edit Right
+[2014.11.08-05.03.10:214][974]LogEditorTransaction: Undo Edit Bottom
+[2014.11.08-05.03.10:510][  8]LogEditorTransaction: Undo Edit Bottom
+[2014.11.08-05.03.10:815][ 43]LogEditorTransaction: Undo Edit Right
+[2014.11.08-05.03.11:094][ 75]LogEditorTransaction: Undo Move Widget
+[2014.11.08-05.03.11:341][103]LogEditorTransaction: Undo Edit Number Of Pieces
+[2014.11.08-05.03.11:351][103]LogCrashTracker: 
+
+
+[2014.11.08-05.03.11:913][103]LogEditorTransaction: Undo Edit Properties
+[2014.11.08-05.03.11:915][103]LogCrashTracker: 
+
+
+[2014.11.08-05.03.11:915][103]LogWindows: === Critical error: ===
+Fatal error!
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000004
+
+UE4Editor-UMG.dll!UnknownFunction (0x000007fee2399e98) + 0 bytes [UnknownFile:0]
+UE4Editor-UMG.dll!UnknownFunction (0x000007fee2416c1b) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007feef3b3f53) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee97688c0) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee97b1919) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x000007fee73a2c0d) + 0 bytes [UnknownFile:0]
+UE4Editor-Kismet.dll!UnknownFunction (0x000007fee73a8367) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feeac1b963) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feeac6606c) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee9f26fce) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee9f251a2) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feeac67197) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feeac57883) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feeea53b74) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feeea462ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feeea55019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feeea43542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x0000000076e99bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x0000000076e998da) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feeeaf2ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f0ca752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x000000013f0bf9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f0bfa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x000000013f0cbf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f0ccdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x0000000076d759ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000076fac541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000076fac541) + 0 bytes [UnknownFile:0]
+
+
+[2014.11.08-05.03.12:031][103]LogExit: Executing StaticShutdownAfterError
+[2014.11.08-05.03.12:043][103]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.11.08-05.03.12:043][103]Log file closed, 11/07/14 21:03:12

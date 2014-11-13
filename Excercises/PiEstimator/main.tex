@@ -1,0 +1,65 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{
+    frame=tb,
+    tabsize=4,
+    showstringspaces=false,
+    numbers=left,
+    commentstyle=\color{green},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red}
+}
+
+\title{Pi Estimator via Monte Carlo Method}
+
+\author{Adrian Lu}
+
+\date{Tuesday November 11th, 2014}
+
+\begin{document}
+
+\maketitle
+
+\section{Summary}
+
+This is the second time ever I have coded in C++, and I decided to try making one of the assignments assigned by Dr. Dorin in CMSI 186. I ended up deciding to make a PiSolver via the Monte Carlo Method of estimation. For me the hardest part was definitely familiarizing myself with the classes that need to be imported to do even very basic functions. This surprised me after having so much experience with Java, where many of the basic mathematical functionalities are built in. Besides this, the overall syntax of the language was very foreign, which I expected, but still surprised me after having the transition from JavaScript to Java feel so smooth. In the end, I was able to use the same mathematical reasoning as I did in my Java version of the program, and I really was interested seeing the final programs and comparing the differences.
+
+\section{Code Snapshot}
+
+\begin{lstlisting}[language=C++, caption={C++ code using listings}]
+#include <iostream>
+#include <math.h>
+
+double randomNumber() {
+  return (double)rand()/(double)RAND_MAX;
+}
+
+double getRandDistance() {
+  double x = randomNumber();
+  double y = randomNumber();
+  return sqrt(pow(x,2) + pow(y,2));
+}
+
+int main(void){
+  int numIter = 10000000;
+  int numHits = 0;
+  for (int i = 0; i < numIter; i++) {
+  if (getRandDistance() <= 1) {
+  numHits++;
+  }
+  }
+  double pi = 4.0 * ((double)numHits / (double)numIter);
+  std::cout << pi;
+  std::cout << "\n";
+  return 0;
+}
+\end{lstlisting}
+
+\end{document}

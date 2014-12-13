@@ -1,0 +1,30 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title{Jump Pad}
+
+\author{Adrian Lu}
+
+\date{Tuesday November 11th 2014}
+
+\begin{document}
+
+\maketitle
+
+\section{Summary}
+
+The goal of this project was to make a static actor that, upon being walked on by a player character, would vault the player into the air automatically. While working on this project, there were many difficulties along the way. My initial attempt is what you see in JumpProblems.PNG and MCJumpProblems.PNG. In order to test each individual piece of code, I made a Print String function run at every step in the process. Upon stepping on the jump pad, both "You should be jumping" and "Why am I not jumping" would be printed. This means that the casting functioned properly and that the Jump function was activating in the MyCharacter event graph. Despite this, the in game character would not jump at all. In the end, I scrapped this method and instead of having the built-in Jump function vaulting my character, I made a Launch Character event that acted independantly of the Jump. This new method is shown in the final product, JumpPadSuccess.PNG.
+
+\section{Code Snapshot}
+
+\begin{itemize}
+\item JumpPadSuccess.PNG
+\item JumpProblems.PNG
+\item MCJumpProblems.PNG
+\end{itemize}
+
+\end{document}

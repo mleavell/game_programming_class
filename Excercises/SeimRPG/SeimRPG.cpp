@@ -7,13 +7,20 @@ using namespace std;
 class SeimRPG {
 
 private:
-    vector<Player> players;
+    enum PlayState {
+        CreatingCharacters,
+        Playing,
+        GameOver
+    };
 
     string requestInput () {
         string input = "";
         getline(cin, input);
         return input;
     }
+
+    PlayState currentGameState;
+    vector<Player> players;
 
 public:
     void print (string str) {
@@ -28,7 +35,13 @@ public:
         cout << endl;
     }
 
-    void takeMove (Player &player) {
+    void blankSpace () {
+        printBlank();
+        printBlank();
+        printBlank();
+    }
+
+    void takeTurn (Player &player) {
         print(player.getName() + ",");
         print("Would you like to 'attack', 'heal', or 'skip turn'?");
         printAfter("Move choice: ");
@@ -42,7 +55,7 @@ public:
         } else if (choice.compare("skip turn") == 0) {
             skipTurn(player);
         } else {
-            takeMove(player);
+            takeTurn(player);
         }
     }
 
@@ -154,7 +167,7 @@ public:
         cout << endl;
     }
 
-    void victory() {
+    void playerHasWon() {
         print(players.front().getName() + " has won");
         printBlank();
         printPlayerStats(players.front());
@@ -219,6 +232,7 @@ public:
 
     int main () {
         printBlank();
+        currentGameState = CreatingCharacters;
         for(int i = 0; i < 2; i++) {
             string name = "";
             do {
@@ -243,14 +257,14 @@ public:
             playerCreation(name);
         }
 
+        blankSpace();
+        currentGameState = Playing;
         while(players.size() > 1) {
             for(int k = 0; k < players.size(); k++) {
                 int numPlayersBefore = players.size();
-                printBlank();
-                printBlank();
-                printBlank();
+                blankSpace();
                 printPlayerStats(players[k]);
-                takeMove(players[k]);
+                takeTurn(players[k]);
             }
             cout << endl;
 
@@ -259,10 +273,9 @@ public:
             }
             cout << endl;
         }
-        printBlank();
-        printBlank();
-        printBlank();
-        victory();
+        blankSpace();
+        currentGameState = GameOver;
+        playerHasWon();
         return 0;
     }
 };

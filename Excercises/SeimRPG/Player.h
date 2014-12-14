@@ -228,6 +228,10 @@ public:
         return killCount;
     }
 
+    bool autoSkipTurn () {
+        return false;
+    }
+
     bool attemptDodge () {
         return randRange(0.0, 100.0) < getDodgeChance() * 100.0;
     }

@@ -1,0 +1,415 @@
+﻿Log file open, 12/12/14 11:05:34
+LogInit:Display: Running engine for game: EpicManBP
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.12-19.05.34:195][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.12-19.05.34:225][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.12-19.05.34:254][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.12-19.05.34:261][  0]LogInit: Object subsystem initialized
+[2014.12.12-19.05.34:263][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.12-19.05.34:263][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.12-19.05.34:263][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.12-19.05.34:263][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.12-19.05.34:263][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.12-19.05.34:263][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.12-19.05.34:270][  0]LogInit: Computer: XPS3
+[2014.12.12-19.05.34:270][  0]LogInit: User: Maurice
+[2014.12.12-19.05.34:270][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.12-19.05.34:270][  0]LogInit: High frequency timer resolution =3.312705 MHz
+[2014.12.12-19.05.34:270][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx) Virtual=8192.0GB
+[2014.12.12-19.05.34:270][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.12-19.05.34:270][  0]LogMemory: Process Physical Memory: 76.11 MB used, 76.11 MB peak
+[2014.12.12-19.05.34:270][  0]LogMemory: Process Virtual Memory: 51.39 MB used, 51.39 MB peak
+[2014.12.12-19.05.34:270][  0]LogMemory: Physical Memory: 6017.82 MB used, 24527.21 MB total
+[2014.12.12-19.05.34:270][  0]LogMemory: Virtual Memory: 284.41 MB used, 8388608.00 MB total
+[2014.12.12-19.05.34:291][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 (Feature Level 11_0)
+[2014.12.12-19.05.34:291][  0]LogD3D11RHI: Adapter has 1484MB of dedicated video memory, 0MB of dedicated system memory, and 2560MB of shared system memory, 2 output[s]
+[2014.12.12-19.05.34:291][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.12-19.05.34:293][  0]LogRHI: Texture pool is 1039 MB (70% of 1484 MB)
+[2014.12.12-19.05.34:297][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.12-19.05.34:329][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.12-19.05.34:437][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.12-19.05.38:273][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.12-19.05.38:543][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.12-19.05.38:578][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.12-19.05.38:609][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.12-19.05.38:609][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.12-19.05.38:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.12-19.05.38:610][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.12-19.05.38:660][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.12-19.05.38:671][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Maurice/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.12-19.05.39:176][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.12-19.05.39:176][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.12-19.05.39:384][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.12-19.05.39:390][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.12-19.05.39:588][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.12-19.05.40:448][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.12-19.05.40:602][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Binaries/Win64. Error: 0
+[2014.12.12-19.05.40:718][  0]SourceControl: Info Source control is disabled
+[2014.12.12-19.05.40:718][  0]SourceControl: Info Source control is disabled
+[2014.12.12-19.05.40:722][  0]SourceControl: Info Source control is disabled
+[2014.12.12-19.05.40:800][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.12-19.05.40:800][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.12.12-19.05.40:841][  0]LogEngine: Initializing Engine...
+[2014.12.12-19.05.40:978][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.12-19.05.40:995][  0]LogInit: FAudioDevice initialized.
+[2014.12.12-19.05.41:008][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.12-19.05.41:028][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.12-19.05.41:031][  0]LogInit: Texture streaming: Enabled
+[2014.12.12-19.05.41:058][  0]LogInit: Transaction tracking system initialized
+[2014.12.12-19.05.41:113][  0]BlueprintLog: New page: Editor Load
+[2014.12.12-19.05.41:134][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
+[2014.12.12-19.05.41:134][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.12-19.05.41:420][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.12-19.05.41:634][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.12-19.05.41:766][  0]LogConsoleResponse:Display: 
+[2014.12.12-19.05.41:931][  0]SourceControl: Info Source control is disabled
+[2014.12.12-19.05.41:931][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.12-19.05.41:932][  0]LightingResults: New page: Lighting Build
+[2014.12.12-19.05.41:937][  0]MapCheck: New page: Map Check
+[2014.12.12-19.05.41:937][  0]LightingResults: New page: Lighting Build
+[2014.12.12-19.05.41:948][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000172F1A80
+[2014.12.12-19.05.43:110][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.12-19.05.43:110][  0]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.05.43:111][  0]Cmd: MAP CHECKDEP
+[2014.12.12-19.05.43:111][  0]MapCheck: New page: EpicManLevel - Dec 12, 2014, 3:05:43 AM
+[2014.12.12-19.05.43:189][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.919ms to complete.
+[2014.12.12-19.05.43:189][  0]LogFileHelpers: Loading map 'EpicManLevel' took 1.258
+[2014.12.12-19.05.43:367][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.12-19.05.43:376][  0]LogCollectionManager: Loaded 0 collections in 0.000632 seconds
+[2014.12.12-19.05.43:573][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.12-19.05.43:596][  0]LogLoad: Full Startup: 11.49 seconds (BP compile: 0.52 seconds)
+[2014.12.12-19.05.43:939][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.12-19.05.44:046][  0]LogRenderer:Warning: Reallocating scene render targets to support 1224x912.
+[2014.12.12-19.05.45:678][  5]LogAssetRegistry: Asset discovery search completed in 4.5525 seconds
+[2014.12.12-19.05.58:313][825]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.12.12-19.05.59:381][898]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.12-19.06.00:906][ 11]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Pickups'
+[2014.12.12-19.06.21:041][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:041][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:043][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:044][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:044][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.21:044][521]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.59:036][278]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.59:036][278]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.59:036][278]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.06.59:036][278]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.07.48:753][424]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.07.48:753][424]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.07.48:753][424]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.07.54:047][939]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.07.54:047][939]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.09.00:276][604]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.09.52:563][959]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.09.52:685][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.12-19.09.52:685][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.12-19.09.52:685][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.12-19.09.52:685][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.12-19.09.52:685][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.12-19.09.52:685][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.12-19.09.52:747][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000007F7B920
+[2014.12.12-19.09.52:782][959]BlueprintEditorCompileResults: Info [0260.46] Compile of P_Slowing_Pit successful! [in 4 ms]
+[2014.12.12-19.09.53:204][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.09.53:562][976]LogSavePackage: Save=307.737640ms
+[2014.12.12-19.09.53:562][976]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitCAC11945470C2E8327ED19B7213E71E7.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.09.58:951][433]LogSavePackage: Save=498.551178ms
+[2014.12.12-19.09.58:951][433]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevelCFD9CCCC4BAE2284E29CB09E03C0CC68.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.10.01:440][617]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.10.01:440][617]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.12-19.10.01:480][617]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.10.01:554][617]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (2 blueprints)
+[2014.12.12-19.10.01:554][617]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:10:01 AM)
+[2014.12.12-19.10.01:565][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010665s)
+[2014.12.12-19.10.01:565][617]LogPlayLevel: PIE: World Init took: (0.000400s)
+[2014.12.12-19.10.01:565][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011253s)
+[2014.12.12-19.10.01:612][617]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.10.01:613][617]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.10.01:617][617]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.10.01
+[2014.12.12-19.10.01:618][617]LogWorld: Bringing up level for play took: 0.004364
+[2014.12.12-19.10.02:140][617]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 0.191
+[2014.12.12-19.10.16:664][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025D01C60
+[2014.12.12-19.10.41:033][571]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.10.41:123][571]BlueprintEditorCompileResults: Info [0308.93] Compile of P_Slowing_Pit successful! [in 4 ms]
+[2014.12.12-19.10.41:870][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.10.42:221][630]LogSavePackage: Save=305.286469ms
+[2014.12.12-19.10.42:221][630]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit03BAAD8C486EC0BC3AD646B0C8A6D296.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.10.45:171][887]LogSavePackage: Save=330.622253ms
+[2014.12.12-19.10.45:171][887]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevelBBCBE17C4B339DF891AB0B83EA24A86A.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.10.46:183][934]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.10.46:183][934]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.10.46:256][934]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2014.12.12-19.10.46:256][934]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:10:46 AM)
+[2014.12.12-19.10.46:266][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010314s)
+[2014.12.12-19.10.46:267][934]LogPlayLevel: PIE: World Init took: (0.000429s)
+[2014.12.12-19.10.46:267][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.010920s)
+[2014.12.12-19.10.46:295][934]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.10.46:297][934]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.10.46:301][934]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.10.46
+[2014.12.12-19.10.46:301][934]LogWorld: Bringing up level for play took: 0.004037
+[2014.12.12-19.10.46:804][934]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 0.853
+[2014.12.12-19.12.45:419][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6FD940
+[2014.12.12-19.13.55:895][663]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.13.55:895][663]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.13.55:895][663]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.13.55:895][663]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.13.55:895][663]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.13.55:896][663]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1029.EdGraphPin_17910"''
+[2014.12.12-19.13.55:896][663]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_802.EdGraphPin_17905"''
+[2014.12.12-19.13.55:896][663]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1029.EdGraphPin_17913"''
+[2014.12.12-19.13.55:896][663]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1175.EdGraphPin_17915"''
+[2014.12.12-19.13.55:897][663]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_27521.EdGraphPin_17919"''
+[2014.12.12-19.13.55:897][663]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_27521.EdGraphPin_17917"''
+[2014.12.12-19.14.37:232][616]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.14.37:336][616]BlueprintEditorCompileResults: Info [0545.13] Compile of P_Slowing_Pit successful! [in 4 ms]
+[2014.12.12-19.14.38:128][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.14.38:498][675]LogSavePackage: Save=320.994781ms
+[2014.12.12-19.14.38:498][675]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitA7D828A54E1255CF963DACBB2307CDF9.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.14.41:127][886]LogSavePackage: Save=329.764343ms
+[2014.12.12-19.14.41:127][886]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel58E52291452CB47EC440B5B781826CE7.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.14.42:641][975]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.14.42:641][975]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.14.42:710][975]LogPlayLevel: PIE:  Blueprint regeneration took 69 ms (1 blueprints)
+[2014.12.12-19.14.42:711][975]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:14:42 AM)
+[2014.12.12-19.14.42:721][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010441s)
+[2014.12.12-19.14.42:722][975]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2014.12.12-19.14.42:722][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011109s)
+[2014.12.12-19.14.42:749][975]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.14.42:751][975]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.14.42:754][975]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.14.42
+[2014.12.12-19.14.42:755][975]LogWorld: Bringing up level for play took: 0.003911
+[2014.12.12-19.14.43:260][975]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 1.306
+[2014.12.12-19.15.23:384][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000268F2980
+[2014.12.12-19.16.09:112][704]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.16.15:318][221]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.16.15:423][221]BlueprintEditorCompileResults: Info [0643.21] Compile of P_Slowing_Pit successful! [in 5 ms]
+[2014.12.12-19.16.15:759][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.16.16:145][222]LogSavePackage: Save=335.879578ms
+[2014.12.12-19.16.16:145][222]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitC44DC15B436032A4DB7139B6986210FD.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.16.16:915][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.16.16:976][287]LogSavePackage: Save=27.628780ms
+[2014.12.12-19.16.16:976][287]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit8D2D2AB04F13E54F7B787C85CA3FEEE9.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.16.19:329][446]LogSavePackage: Save=388.244965ms
+[2014.12.12-19.16.19:329][446]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel2DF840D348638F2A4A051DBB6AD0F011.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.16.20:417][499]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.16.20:417][499]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.16.20:489][499]LogPlayLevel: PIE:  Blueprint regeneration took 72 ms (1 blueprints)
+[2014.12.12-19.16.20:490][499]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:16:20 AM)
+[2014.12.12-19.16.20:501][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010956s)
+[2014.12.12-19.16.20:501][499]LogPlayLevel: PIE: World Init took: (0.000418s)
+[2014.12.12-19.16.20:501][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011556s)
+[2014.12.12-19.16.20:525][499]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.16.20:527][499]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.16.20:530][499]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.16.20
+[2014.12.12-19.16.20:531][499]LogWorld: Bringing up level for play took: 0.003982
+[2014.12.12-19.16.21:041][499]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 1.084
+[2014.12.12-19.16.43:561][368]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DAB32E0
+[2014.12.12-19.17.49:144][ 89]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.17.49:250][ 89]BlueprintEditorCompileResults: Info [0737.04] Compile of P_Slowing_Pit successful! [in 5 ms]
+[2014.12.12-19.17.50:001][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.17.50:385][138]LogSavePackage: Save=325.899536ms
+[2014.12.12-19.17.50:385][138]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit5158FAD9469C87D1BDF455B7B6F54088.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.17.52:325][288]LogSavePackage: Save=327.436035ms
+[2014.12.12-19.17.52:325][288]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevelEA1141224E9352AEEC1D4FB48ED94CB5.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.17.53:822][375]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.17.53:823][375]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.17.53:892][375]LogPlayLevel: PIE:  Blueprint regeneration took 69 ms (1 blueprints)
+[2014.12.12-19.17.53:892][375]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:17:53 AM)
+[2014.12.12-19.17.53:902][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010308s)
+[2014.12.12-19.17.53:903][375]LogPlayLevel: PIE: World Init took: (0.000454s)
+[2014.12.12-19.17.53:903][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.010947s)
+[2014.12.12-19.17.53:930][375]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.17.53:932][375]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.17.53:941][375]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.17.53
+[2014.12.12-19.17.53:944][375]LogWorld: Bringing up level for play took: 0.011870
+[2014.12.12-19.17.54:472][375]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 0.514
+[2014.12.12-19.18.08:120][773]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DA41DA0
+[2014.12.12-19.18.11:676][100]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.18.11:676][100]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.18.11:749][100]LogPlayLevel: PIE:  Blueprint regeneration took 72 ms (1 blueprints)
+[2014.12.12-19.18.11:749][100]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:18:11 AM)
+[2014.12.12-19.18.11:760][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010663s)
+[2014.12.12-19.18.11:760][100]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2014.12.12-19.18.11:760][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011276s)
+[2014.12.12-19.18.11:787][100]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.18.11:789][100]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.18.11:792][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.18.11
+[2014.12.12-19.18.11:793][100]LogWorld: Bringing up level for play took: 0.003961
+[2014.12.12-19.18.12:305][100]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 0.347
+[2014.12.12-19.18.28:195][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228C5BC0
+[2014.12.12-19.21.41:238][378]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.12.12-19.23.06:603][159]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.23.06:603][159]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.26.25:035][794]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.26.25:035][794]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.26.25:035][794]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.26.25:035][794]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.26.25:035][794]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-19.26.25:035][794]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_802.EdGraphPin_18355"''
+[2014.12.12-19.26.25:036][794]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1029.EdGraphPin_18360"''
+[2014.12.12-19.26.25:036][794]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1029.EdGraphPin_18363"''
+[2014.12.12-19.26.25:036][794]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1175.EdGraphPin_18373"''
+[2014.12.12-19.26.25:037][794]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_625.EdGraphPin_18393"''
+[2014.12.12-19.26.25:037][794]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CommutativeAssociativeBinaryOperator_625.EdGraphPin_18392"''
+[2014.12.12-19.26.50:778][346]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.26.50:938][346]BlueprintEditorCompileResults: Info [1278.67] Compile of P_Slowing_Pit successful! [in 6 ms]
+[2014.12.12-19.26.51:669][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.26.52:051][391]LogSavePackage: Save=329.516205ms
+[2014.12.12-19.26.52:051][391]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit27A6CEE64B0899A4FDCA5C90BD8C6CCF.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.27.24:492][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.27.24:570][637]LogSavePackage: Save=30.424080ms
+[2014.12.12-19.27.24:570][637]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit6D3AE9264160C090F72B1C9614FA6F94.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.28.31:746][574]LogSavePackage: Save=391.192688ms
+[2014.12.12-19.28.31:746][574]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel_Auto10A6FB94E47CCBE705C86819F65ABD42A.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Maps/EpicManLevel_Auto1.umap'
+[2014.12.12-19.28.31:753][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.508
+[2014.12.12-19.28.31:753][574]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.508
+[2014.12.12-19.28.31:765][574]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/P_Slowing_Pit] ([1] browsable assets)...
+[2014.12.12-19.28.31:781][574]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit]
+[2014.12.12-19.28.31:781][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/P_Slowing_Pit]
+[2014.12.12-19.28.32:167][574]LogSavePackage: Save=340.016083ms
+[2014.12.12-19.28.32:167][574]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit_Auto15A19A4614C179B532F60CEBBD5D79714.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/P_Slowing_Pit_Auto1.uasset'
+[2014.12.12-19.28.32:175][574]LogFileHelpers: Auto-saving content packages took 0.422
+[2014.12.12-19.30.48:648][688]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.30.48:778][688]BlueprintEditorCompileResults: Info [1516.53] Compile of P_Slowing_Pit successful! [in 6 ms]
+[2014.12.12-19.34.18:761][362]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.12-19.34.18:761][362]LogCrashTracker: 
+
+
+[2014.12.12-19.34.19:179][362]LogCrashTracker: 
+
+
+[2014.12.12-19.34.19:179][362]LogWindows: === Critical error: ===
+Assertion failed: StructPtrs.Num() != 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\DetailCustomizations\Private\KeyStructCustomization.cpp] [Line: 63] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefd79940d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feed2b71c4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feed1498c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feed12e892) + 0 bytes [UnknownFile:0]
+UE4Editor-DetailCustomizations.dll!UnknownFunction (0x000007fee0791194) + 0 bytes [UnknownFile:0]
+UE4Editor-DetailCustomizations.dll!UnknownFunction (0x000007fee0774526) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee7c44d8a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee7c577f8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee7c608d6) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee7c47032) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec232a1f) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec231098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec232cd6) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec234494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec231098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec231098) + 0 bytes [UnknownFile:0]
+UE4Editor-PropertyEditor.dll!UnknownFunction (0x000007fee64ed50f) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec25d5e4) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec231098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec231098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec231098) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb171c5) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec234494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec234494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x000007feec234494) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb171c5) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb16f28) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb178af) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb17bba) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!UnknownFunction (0x000007feecb172fc) + 0 bytes [UnknownFile:0]
+UnknownModule!UnknownFunction (0x0000214c9b1743a5) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.12-19.34.19:300][362]LogExit: Executing StaticShutdownAfterError
+[2014.12.12-19.34.19:309][362]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.12-19.34.19:309][362]Log file closed, 12/12/14 11:34:19

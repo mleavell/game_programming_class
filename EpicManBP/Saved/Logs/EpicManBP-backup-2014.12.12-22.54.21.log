@@ -1,0 +1,717 @@
+﻿Log file open, 12/12/14 16:48:18
+LogInit:Display: Running engine for game: EpicManBP
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.13-00.48.18:647][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.13-00.48.18:689][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.13-00.48.18:721][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.13-00.48.18:731][  0]LogInit: Object subsystem initialized
+[2014.12.13-00.48.18:735][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.13-00.48.18:735][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.13-00.48.18:735][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.13-00.48.18:735][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.13-00.48.18:735][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.13-00.48.18:735][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.13-00.48.18:741][  0]LogInit: Computer: XPS3
+[2014.12.13-00.48.18:741][  0]LogInit: User: Maurice
+[2014.12.13-00.48.18:742][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.13-00.48.18:742][  0]LogInit: High frequency timer resolution =3.312705 MHz
+[2014.12.13-00.48.18:742][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx) Virtual=8192.0GB
+[2014.12.13-00.48.18:742][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.13-00.48.18:742][  0]LogMemory: Process Physical Memory: 68.04 MB used, 73.61 MB peak
+[2014.12.13-00.48.18:742][  0]LogMemory: Process Virtual Memory: 46.50 MB used, 50.67 MB peak
+[2014.12.13-00.48.18:742][  0]LogMemory: Physical Memory: 6502.66 MB used, 24527.21 MB total
+[2014.12.13-00.48.18:742][  0]LogMemory: Virtual Memory: 279.53 MB used, 8388608.00 MB total
+[2014.12.13-00.48.18:763][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 (Feature Level 11_0)
+[2014.12.13-00.48.18:763][  0]LogD3D11RHI: Adapter has 1484MB of dedicated video memory, 0MB of dedicated system memory, and 2560MB of shared system memory, 2 output[s]
+[2014.12.13-00.48.18:763][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.13-00.48.18:766][  0]LogRHI: Texture pool is 1039 MB (70% of 1484 MB)
+[2014.12.13-00.48.18:772][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.13-00.48.18:810][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.13-00.48.18:936][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.13-00.48.22:654][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.13-00.48.22:935][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.13-00.48.22:970][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.13-00.48.23:004][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.13-00.48.23:004][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.13-00.48.23:004][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.13-00.48.23:004][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.13-00.48.23:055][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.13-00.48.23:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Maurice/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.13-00.48.23:187][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.13-00.48.23:187][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.13-00.48.23:366][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.13-00.48.23:369][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.13-00.48.23:493][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.13-00.48.24:050][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.13-00.48.24:198][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Binaries/Win64. Error: 0
+[2014.12.13-00.48.24:283][  0]SourceControl: Info Source control is disabled
+[2014.12.13-00.48.24:283][  0]SourceControl: Info Source control is disabled
+[2014.12.13-00.48.24:287][  0]SourceControl: Info Source control is disabled
+[2014.12.13-00.48.24:355][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.13-00.48.24:355][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.12.13-00.48.24:397][  0]LogEngine: Initializing Engine...
+[2014.12.13-00.48.24:494][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.13-00.48.24:500][  0]LogInit: FAudioDevice initialized.
+[2014.12.13-00.48.24:512][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.13-00.48.24:536][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.13-00.48.24:539][  0]LogInit: Texture streaming: Enabled
+[2014.12.13-00.48.24:565][  0]LogInit: Transaction tracking system initialized
+[2014.12.13-00.48.24:621][  0]BlueprintLog: New page: Editor Load
+[2014.12.13-00.48.24:643][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.12.13-00.48.24:643][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.13-00.48.24:943][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.13-00.48.25:168][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.13-00.48.25:301][  0]LogConsoleResponse:Display: 
+[2014.12.13-00.48.25:425][  0]SourceControl: Info Source control is disabled
+[2014.12.13-00.48.25:425][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.13-00.48.25:425][  0]LightingResults: New page: Lighting Build
+[2014.12.13-00.48.25:431][  0]MapCheck: New page: Map Check
+[2014.12.13-00.48.25:431][  0]LightingResults: New page: Lighting Build
+[2014.12.13-00.48.25:442][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B8DA80
+[2014.12.13-00.48.26:657][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.13-00.48.26:657][  0]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-00.48.26:657][  0]Cmd: MAP CHECKDEP
+[2014.12.13-00.48.26:658][  0]MapCheck: New page: EpicManLevel - Dec 12, 2014, 8:48:26 AM
+[2014.12.13-00.48.26:737][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.686ms to complete.
+[2014.12.13-00.48.26:737][  0]LogFileHelpers: Loading map 'EpicManLevel' took 1.312
+[2014.12.13-00.48.26:864][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.13-00.48.26:873][  0]LogCollectionManager: Loaded 0 collections in 0.000665 seconds
+[2014.12.13-00.48.27:078][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.13-00.48.27:101][  0]LogLoad: Full Startup: 10.51 seconds (BP compile: 0.58 seconds)
+[2014.12.13-00.48.27:444][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.13-00.48.27:548][  0]LogRenderer:Warning: Reallocating scene render targets to support 1224x912.
+[2014.12.13-00.48.28:532][  3]LogAssetRegistry: Asset discovery search completed in 3.8995 seconds
+[2014.12.13-00.50.46:524][417]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.12.13-00.50.49:458][669]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-00.50.49:458][669]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-00.50.49:685][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.13-00.50.49:685][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.13-00.50.49:685][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.13-00.50.49:685][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.13-00.50.49:685][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.13-00.50.49:758][669]LogPlayLevel: PIE:  Blueprint regeneration took 300 ms (1 blueprints)
+[2014.12.13-00.50.49:759][669]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 8:50:49 AM)
+[2014.12.13-00.50.49:770][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010804s)
+[2014.12.13-00.50.49:770][669]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2014.12.13-00.50.49:770][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011559s)
+[2014.12.13-00.50.49:810][669]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-00.50.49:811][669]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-00.50.49:815][669]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-16.50.49
+[2014.12.13-00.50.49:816][669]LogWorld: Bringing up level for play took: 0.004228
+[2014.12.13-00.50.50:330][669]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel -0.01
+[2014.12.13-00.51.33:968][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A376340
+[2014.12.13-00.51.35:054][912]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-00.51.35:054][912]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-00.51.35:122][912]LogPlayLevel: PIE:  Blueprint regeneration took 67 ms (1 blueprints)
+[2014.12.13-00.51.35:122][912]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 8:51:35 AM)
+[2014.12.13-00.51.35:133][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010654s)
+[2014.12.13-00.51.35:133][912]LogPlayLevel: PIE: World Init took: (0.000421s)
+[2014.12.13-00.51.35:133][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011236s)
+[2014.12.13-00.51.35:159][912]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-00.51.35:160][912]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-00.51.35:164][912]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-16.51.35
+[2014.12.13-00.51.35:165][912]LogWorld: Bringing up level for play took: 0.004103
+[2014.12.13-00.51.35:669][912]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 1.328
+[2014.12.13-00.52.19:635][103]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A375620
+[2014.12.13-00.53.21:191][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:191][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:193][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:193][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.53.21:194][840]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.54.23:999][542]BlueprintLog: New page: Compile P_Decoy
+[2014.12.13-00.54.24:083][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.13-00.54.24:140][542]BlueprintEditorCompileResults: Info [0367.42] Compile of P_Decoy successful! [in 4 ms]
+[2014.12.13-00.54.25:177][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Decoy" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset" SILENT=true
+[2014.12.13-00.54.25:510][576]LogSavePackage: Save=281.546356ms
+[2014.12.13-00.54.25:510][576]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_DecoyDBAF1A534DD7D75D18087A81661D6525.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset'
+[2014.12.13-00.54.29:197][793]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-00.54.29:197][793]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.13-00.54.29:246][793]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-00.54.29:339][793]LogPlayLevel: PIE:  Blueprint regeneration took 142 ms (2 blueprints)
+[2014.12.13-00.54.29:339][793]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 8:54:29 AM)
+[2014.12.13-00.54.29:351][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011144s)
+[2014.12.13-00.54.29:351][793]LogPlayLevel: PIE: World Init took: (0.000423s)
+[2014.12.13-00.54.29:351][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011738s)
+[2014.12.13-00.54.29:376][793]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-00.54.29:378][793]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-00.54.29:381][793]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-16.54.29
+[2014.12.13-00.54.29:381][793]LogWorld: Bringing up level for play took: 0.003814
+[2014.12.13-00.54.29:887][793]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 1.543
+[2014.12.13-00.54.55:940][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EE1D620
+[2014.12.13-00.55.37:022][662]LogRenderer:Warning: Reallocating scene render targets to support 1224x1776.
+[2014.12.13-00.55.59:643][299]BlueprintLog: New page: Compile P_Decoy
+[2014.12.13-00.55.59:761][299]BlueprintEditorCompileResults: Info [0463.06] Compile of P_Decoy successful! [in 4 ms]
+[2014.12.13-00.56.00:424][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Decoy" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset" SILENT=true
+[2014.12.13-00.56.00:757][366]LogSavePackage: Save=283.560425ms
+[2014.12.13-00.56.00:757][366]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Decoy6AD94F6449FE975BA3485A8A8375ECB1.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset'
+[2014.12.13-00.56.06:778][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.13-00.56.07:167][861]LogSavePackage: Save=325.945099ms
+[2014.12.13-00.56.07:167][861]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel14E4741A4D89CEDCE1C72C9E1800F546.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.13-00.56.08:355][910]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-00.56.08:355][910]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-00.56.08:435][910]LogPlayLevel: PIE:  Blueprint regeneration took 79 ms (1 blueprints)
+[2014.12.13-00.56.08:435][910]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 8:56:08 AM)
+[2014.12.13-00.56.08:446][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010974s)
+[2014.12.13-00.56.08:446][910]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2014.12.13-00.56.08:447][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011625s)
+[2014.12.13-00.56.08:473][910]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-00.56.08:474][910]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-00.56.08:478][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-16.56.08
+[2014.12.13-00.56.08:479][910]LogWorld: Bringing up level for play took: 0.004583
+[2014.12.13-00.56.08:991][910]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 0.645
+[2014.12.13-00.56.10:261][ 20]LogBlueprintUserMessages: 1
+[2014.12.13-00.56.10:261][ 20]LogBlueprintUserMessages: fail
+[2014.12.13-00.56.13:992][344]LogBlueprintUserMessages: 1
+[2014.12.13-00.56.13:992][344]LogBlueprintUserMessages: 2
+[2014.12.13-00.56.28:759][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001916A980
+[2014.12.13-00.56.53:481][292]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.56.53:481][292]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.56.53:481][292]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.56.53:481][292]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.56.53:481][292]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.56.53:481][292]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.58.55:389][909]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.58.55:389][909]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.58.55:389][909]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.58.55:389][909]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.58.55:389][909]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.59.47:535][295]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-00.59.47:535][295]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-01.00.41:331][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.00.41:331][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.00.41:331][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.00.41:331][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.00.41:331][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.00.41:331][640]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.00.41:332][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_971.EdGraphPin_12013"''
+[2014.12.13-01.00.41:332][640]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_55183 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_569.K2Node_CallFunction_55183
+[2014.12.13-01.00.41:332][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_55183.EdGraphPin_5406"''
+[2014.12.13-01.00.41:334][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallArrayFunction_698.EdGraphPin_5445"''
+[2014.12.13-01.00.41:336][640]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_63893.EdGraphPin_5459"''
+[2014.12.13-01.03.12:839][361]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.03.12:839][361]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.03.12:839][361]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.03.12:839][361]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.03.12:839][361]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_41154.EdGraphPin_5220"''
+[2014.12.13-01.03.12:840][361]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_41281.EdGraphPin_5232"''
+[2014.12.13-01.03.12:841][361]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_41597.EdGraphPin_5241"''
+[2014.12.13-01.05.05:765][594]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.05.05:766][594]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.05.05:766][594]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-01.05.05:766][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_971.EdGraphPin_19533"''
+[2014.12.13-01.05.05:767][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_55183 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_569.K2Node_CallFunction_55183
+[2014.12.13-01.05.05:767][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_55183.EdGraphPin_19539"''
+[2014.12.13-01.06.28:365][948]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.13-01.06.28:405][948]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.041
+[2014.12.13-01.06.28:416][948]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/AI/Ghost] ([1] browsable assets)...
+[2014.12.13-01.06.28:484][948]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AI/Ghost.Ghost]
+[2014.12.13-01.06.28:484][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/Ghost]
+[2014.12.13-01.06.28:873][948]LogSavePackage: Save=329.218262ms
+[2014.12.13-01.06.28:873][948]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Ghost_Auto1781427624D98C8C77B26F0A2384583B6.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/AI/Ghost_Auto1.uasset'
+[2014.12.13-01.06.28:878][948]LogFileHelpers: Auto-saving content packages took 0.473
+[2014.12.13-01.12.56:166][159]BlueprintLog: New page: Compile Ghost
+[2014.12.13-01.12.56:423][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.13-01.12.56:851][159]BlueprintEditorCompileResults: Info [1479.72] Compile of Ghost successful! [in 119 ms]
+[2014.12.13-01.12.57:999][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Ghost" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/AI/Ghost.uasset" SILENT=true
+[2014.12.13-01.12.58:391][201]LogSavePackage: Save=325.045532ms
+[2014.12.13-01.12.58:391][201]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Ghost1D081CBA4D96DFB1F8EA2CAD5E4D939B.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/AI/Ghost.uasset'
+[2014.12.13-01.16.29:253][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.13-01.16.29:818][530]LogSavePackage: Save=426.301178ms
+[2014.12.13-01.16.29:818][530]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel_Auto29FE1D57F4726F25C9A83DFAAC058B006.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Maps/EpicManLevel_Auto2.umap'
+[2014.12.13-01.16.29:825][530]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.573
+[2014.12.13-01.16.29:825][530]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.573
+[2014.12.13-01.16.29:835][530]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/P_Decoy] ([1] browsable assets)...
+[2014.12.13-01.16.29:897][530]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/P_Decoy.P_Decoy]
+[2014.12.13-01.16.29:897][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/P_Decoy]
+[2014.12.13-01.16.30:233][530]LogSavePackage: Save=288.471802ms
+[2014.12.13-01.16.30:233][530]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Decoy_Auto2365598FA47471CE4CFDD79BC7BAC31D2.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/P_Decoy_Auto2.uasset'
+[2014.12.13-01.16.30:238][530]LogFileHelpers: Auto-saving content packages took 0.413
+[2014.12.13-01.28.37:642][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.13-01.28.51:169][853]LogSavePackage: Save=373.526459ms
+[2014.12.13-01.28.51:169][853]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel_Auto3DD917F10447DE99CFDFC0F930363087A.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Maps/EpicManLevel_Auto3.umap'
+[2014.12.13-01.28.51:174][853]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.531
+[2014.12.13-01.28.51:174][853]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.531
+[2014.12.13-01.28.51:183][853]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/P_Decoy] ([1] browsable assets)...
+[2014.12.13-01.28.51:220][853]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/P_Decoy.P_Decoy]
+[2014.12.13-01.28.51:220][853]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/P_Decoy]
+[2014.12.13-01.28.51:560][853]LogSavePackage: Save=280.563477ms
+[2014.12.13-01.28.51:560][853]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Decoy_Auto3E53C40C7456015D2A3577F8A6915962C.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/P_Decoy_Auto3.uasset'
+[2014.12.13-01.28.51:563][853]LogFileHelpers: Auto-saving content packages took 0.389
+[2014.12.13-01.29.39:356][ 99]BlueprintLog: New page: Compile P_Decoy
+[2014.12.13-01.29.39:427][ 99]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.13-01.29.39:467][ 99]BlueprintEditorCompileResults: Info [2482.73] Compile of P_Decoy successful! [in 4 ms]
+[2014.12.13-01.29.40:020][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Decoy" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset" SILENT=true
+[2014.12.13-01.29.40:345][124]LogSavePackage: Save=278.233337ms
+[2014.12.13-01.29.40:345][124]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Decoy9EAF75BE402095318F92C3B2D5F3C348.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset'
+[2014.12.13-01.30.33:339][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.13-01.30.33:740][506]LogSavePackage: Save=321.549622ms
+[2014.12.13-01.30.33:740][506]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel2C1D66A5479AEAA0B771B2A889826BB0.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.13-01.30.40:865][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.12.13-01.30.41:733][ 81]LogEditorViewport: Clicking on Actor (LMB): P_Decoy_C (P_Decoy)
+[2014.12.13-01.31.26:245][432]LogEditorViewport: Clicking on Actor (LMB): P_Decoy_C (P_Decoy)
+[2014.12.13-01.31.27:528][530]Cmd: DELETE
+[2014.12.13-01.31.27:528][530]Cmd: ACTOR DELETE
+[2014.12.13-01.31.27:529][530]LogEditorActor: Deleted Actor: P_Decoy_C
+[2014.12.13-01.31.27:559][530]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2014.12.13-01.32.13:660][ 54]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.13-01.32.13:757][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000291C8A40
+[2014.12.13-01.32.13:779][ 54]BlueprintEditorCompileResults: Info [2637.05] Compile of P_Slowing_Pit successful! [in 11 ms]
+[2014.12.13-01.32.15:672][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.13-01.32.15:749][159]LogSavePackage: Save=27.855183ms
+[2014.12.13-01.32.15:749][159]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit09837A524C5D92703C88F3BAF7E3FD3E.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.13-01.32.18:979][341]LogSavePackage: Save=348.910950ms
+[2014.12.13-01.32.18:979][341]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel767A4E2E475A30253538EB94057BAFC0.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.13-01.32.25:551][790]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Pickups'
+[2014.12.13-01.40.58:916][677]LogEnum:Warning: Enum Text EPowerUpType::NewEnumerator7 for Enum EPowerUpType failed to resolve to any value
+[2014.12.13-01.40.58:939][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.13-01.42.19:161][863]LogSavePackage: Save=358.025543ms
+[2014.12.13-01.42.19:161][863]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel_Auto4FE627D364D53CB08930327ADF95229C2.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Maps/EpicManLevel_Auto4.umap'
+[2014.12.13-01.42.19:167][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.506
+[2014.12.13-01.42.19:167][863]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.506
+[2014.12.13-01.42.19:177][863]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.12.13-01.42.19:247][863]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.12.13-01.42.19:247][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.12.13-01.42.19:609][863]LogSavePackage: Save=316.592041ms
+[2014.12.13-01.42.19:609][863]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/MyCharacter_Auto441CF09CA45364119F93C1ABBFF18BDDF.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset'
+[2014.12.13-01.42.19:624][863]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/P_Decoy] ([1] browsable assets)...
+[2014.12.13-01.42.19:679][863]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/P_Decoy.P_Decoy]
+[2014.12.13-01.42.19:679][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/P_Decoy]
+[2014.12.13-01.42.20:007][863]LogSavePackage: Save=281.287354ms
+[2014.12.13-01.42.20:007][863]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Decoy_Auto461CD20354643B7728CB55B87F22C9748.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/P_Decoy_Auto4.uasset'
+[2014.12.13-01.42.20:024][863]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/PowerUpPickup] ([1] browsable assets)...
+[2014.12.13-01.42.20:080][863]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/PowerUpPickup.PowerUpPickup]
+[2014.12.13-01.42.20:080][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/PowerUpPickup]
+[2014.12.13-01.42.20:423][863]LogSavePackage: Save=295.301880ms
+[2014.12.13-01.42.20:423][863]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUpPickup_Auto4E67EACF6492C7CCA37604AA51B7D67F5.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/PowerUpPickup_Auto4.uasset'
+[2014.12.13-01.42.20:440][863]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pickups/P_Slowing_Pit] ([1] browsable assets)...
+[2014.12.13-01.42.20:484][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/P_Slowing_Pit]
+[2014.12.13-01.42.20:565][863]LogSavePackage: Save=30.176247ms
+[2014.12.13-01.42.20:565][863]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit_Auto4FCCD994E47A30168B0A9C393406CA058.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/P_Slowing_Pit_Auto4.uasset'
+[2014.12.13-01.42.20:581][863]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pickups/EPowerUpType] ([1] browsable assets)...
+[2014.12.13-01.42.20:619][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/EPowerUpType]
+[2014.12.13-01.42.20:691][863]LogSavePackage: Save=5.185792ms
+[2014.12.13-01.42.20:691][863]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EPowerUpType_Auto4F1F58B814D21779740B905A80803F3C7.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/EPowerUpType_Auto4.uasset'
+[2014.12.13-01.42.20:697][863]LogFileHelpers: Auto-saving content packages took 1.530
+[2014.12.13-01.45.10:934][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.13-01.45.11:229][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/EPowerUpType" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/EPowerUpType.uasset" SILENT=true
+[2014.12.13-01.45.11:285][668]LogSavePackage: Save=5.715873ms
+[2014.12.13-01.45.11:285][668]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EPowerUpTypeD873E3494D3372407FB5AEB5CF4BDBB8.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/EPowerUpType.uasset'
+[2014.12.13-01.45.15:788][924]BlueprintLog: New page: Compile PowerUpPickup
+[2014.12.13-01.45.15:922][924]BlueprintEditorCompileResults: Info [3419.15] Compile of PowerUpPickup successful! [in 7 ms]
+[2014.12.13-01.45.16:896][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/PowerUpPickup" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUpPickup.uasset" SILENT=true
+[2014.12.13-01.45.17:229][947]LogSavePackage: Save=300.266693ms
+[2014.12.13-01.45.17:229][947]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUpPickup7D22E0604937C3038A376AABE5CBF39E.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUpPickup.uasset'
+[2014.12.13-01.46.07:791][732]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.12.13-01.47.08:106][123]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-01.47.08:106][123]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-01.47.08:106][123]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-01.47.08:106][123]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-01.47.08:107][123]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.13-01.47.20:187][705]BlueprintLog: New page: Compile PowerUpPickup
+[2014.12.13-01.47.20:329][705]BlueprintEditorCompileResults: Info [3543.55] Compile of PowerUpPickup successful! [in 8 ms]
+[2014.12.13-01.47.21:323][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/PowerUpPickup" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUpPickup.uasset" SILENT=true
+[2014.12.13-01.47.21:678][727]LogSavePackage: Save=303.055359ms
+[2014.12.13-01.47.21:678][727]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUpPickupA08D44984EF6B81C8B13F5B2B120A6C1.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUpPickup.uasset'
+[2014.12.13-01.47.24:296][830]BlueprintLog: New page: Compile MyCharacter
+[2014.12.13-01.47.24:598][830]BlueprintEditorCompileResults: Info [3547.77] Compile of MyCharacter successful! [in 99 ms]
+[2014.12.13-01.47.25:356][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.13-01.47.25:716][831]LogSavePackage: Save=325.080261ms
+[2014.12.13-01.47.25:716][831]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/MyCharacter76A8FD514B4F99A5EAE316BBEAE8683B.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/MyCharacter.uasset'
+[2014.12.13-01.47.33:021][228]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.13-01.47.33:471][228]LogSavePackage: Save=373.665314ms
+[2014.12.13-01.47.33:471][228]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel8FEBEB664EA0DC405A3062898E1C02F6.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.13-01.47.34:678][270]LogEditorViewport: Clicking on Actor (LMB): PowerUpPickup_C (PowerUpPickup_5)
+[2014.12.13-01.47.39:787][549]LogSavePackage: Save=318.646240ms
+[2014.12.13-01.47.39:787][549]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevelB3AB1AB848A50F909136AEA5E04AD442.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.13-01.47.40:876][571]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-01.47.40:876][571]LogPlayLevel: [PIE] Compiling GhostBox before PIE...
+[2014.12.13-01.47.41:083][571]LogPlayLevel: [PIE] Compiling IntersectionSensor before PIE...
+[2014.12.13-01.47.41:173][571]LogPlayLevel: [PIE] Compiling P_Decoy before PIE...
+[2014.12.13-01.47.41:246][571]LogPlayLevel: [PIE] Compiling BasicPickup before PIE...
+[2014.12.13-01.47.41:309][571]LogPlayLevel: [PIE] Compiling TheGrid before PIE...
+[2014.12.13-01.47.41:387][571]LogPlayLevel: [PIE] Compiling P_Double_Speed before PIE...
+[2014.12.13-01.47.41:449][571]LogPlayLevel: [PIE] Compiling Fire_Sphere before PIE...
+[2014.12.13-01.47.41:503][571]LogPlayLevel: [PIE] Compiling P_Invunerability before PIE...
+[2014.12.13-01.47.41:561][571]LogPlayLevel: [PIE] Compiling P_Slow_Epic_Man_Speed_Up_Ghost before PIE...
+[2014.12.13-01.47.41:642][571]LogPlayLevel: [PIE] Compiling P_Slowing_Pit before PIE...
+[2014.12.13-01.47.41:724][571]LogPlayLevel: [PIE] Compiling PowerUpPickup before PIE...
+[2014.12.13-01.47.41:826][571]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-01.47.41:886][571]LogPlayLevel: [PIE] Compiling EpicManHUD before PIE...
+[2014.12.13-01.47.42:012][571]LogPlayLevel: [PIE] Compiling Ghost before PIE...
+[2014.12.13-01.47.42:589][571]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.13-01.47.42:796][571]LogPlayLevel: [PIE] Compiling NoSpawnArea before PIE...
+[2014.12.13-01.47.42:859][571]LogPlayLevel: [PIE] Compiling P_Fire_Wall before PIE...
+[2014.12.13-01.47.42:924][571]LogPlayLevel: [PIE] Compiling LightBlueGhost before PIE...
+[2014.12.13-01.47.42:970][571]LogPlayLevel: [PIE] Compiling OrangeGhost before PIE...
+[2014.12.13-01.47.43:016][571]LogPlayLevel: [PIE] Compiling RedGhost before PIE...
+[2014.12.13-01.47.43:062][571]LogPlayLevel: [PIE] Compiling PinkGhost before PIE...
+[2014.12.13-01.47.43:139][571]LogPlayLevel: PIE:  Blueprint regeneration took 2263 ms (21 blueprints)
+[2014.12.13-01.47.43:139][571]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 9:47:43 AM)
+[2014.12.13-01.47.43:153][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013746s)
+[2014.12.13-01.47.43:154][571]LogPlayLevel: PIE: World Init took: (0.000436s)
+[2014.12.13-01.47.43:154][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.014429s)
+[2014.12.13-01.47.43:181][571]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-01.47.43:183][571]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-01.47.43:186][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-17.47.43
+[2014.12.13-01.47.43:188][571]LogWorld: Bringing up level for play took: 0.004424
+[2014.12.13-01.47.43:707][571]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 3.302
+[2014.12.13-01.47.53:643][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004743FBA0
+[2014.12.13-01.47.55:217][211]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-01.47.55:217][211]LogPlayLevel: [PIE] Compiling GhostBox before PIE...
+[2014.12.13-01.47.55:408][211]LogPlayLevel: [PIE] Compiling IntersectionSensor before PIE...
+[2014.12.13-01.47.55:492][211]LogPlayLevel: [PIE] Compiling P_Decoy before PIE...
+[2014.12.13-01.47.55:563][211]LogPlayLevel: [PIE] Compiling BasicPickup before PIE...
+[2014.12.13-01.47.55:619][211]LogPlayLevel: [PIE] Compiling TheGrid before PIE...
+[2014.12.13-01.47.55:693][211]LogPlayLevel: [PIE] Compiling P_Double_Speed before PIE...
+[2014.12.13-01.47.55:752][211]LogPlayLevel: [PIE] Compiling Fire_Sphere before PIE...
+[2014.12.13-01.47.55:801][211]LogPlayLevel: [PIE] Compiling P_Invunerability before PIE...
+[2014.12.13-01.47.55:857][211]LogPlayLevel: [PIE] Compiling P_Slow_Epic_Man_Speed_Up_Ghost before PIE...
+[2014.12.13-01.47.55:935][211]LogPlayLevel: [PIE] Compiling P_Slowing_Pit before PIE...
+[2014.12.13-01.47.56:014][211]LogPlayLevel: [PIE] Compiling PowerUpPickup before PIE...
+[2014.12.13-01.47.56:111][211]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-01.47.56:169][211]LogPlayLevel: [PIE] Compiling EpicManHUD before PIE...
+[2014.12.13-01.47.56:293][211]LogPlayLevel: [PIE] Compiling Ghost before PIE...
+[2014.12.13-01.47.56:858][211]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.13-01.47.57:063][211]LogPlayLevel: [PIE] Compiling NoSpawnArea before PIE...
+[2014.12.13-01.47.57:125][211]LogPlayLevel: [PIE] Compiling P_Fire_Wall before PIE...
+[2014.12.13-01.47.57:191][211]LogPlayLevel: [PIE] Compiling LightBlueGhost before PIE...
+[2014.12.13-01.47.57:237][211]LogPlayLevel: [PIE] Compiling OrangeGhost before PIE...
+[2014.12.13-01.47.57:282][211]LogPlayLevel: [PIE] Compiling RedGhost before PIE...
+[2014.12.13-01.47.57:327][211]LogPlayLevel: [PIE] Compiling PinkGhost before PIE...
+[2014.12.13-01.47.57:404][211]LogPlayLevel: PIE:  Blueprint regeneration took 2187 ms (21 blueprints)
+[2014.12.13-01.47.57:404][211]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 9:47:57 AM)
+[2014.12.13-01.47.57:415][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011060s)
+[2014.12.13-01.47.57:416][211]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2014.12.13-01.47.57:416][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011806s)
+[2014.12.13-01.47.57:439][211]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-01.47.57:441][211]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-01.47.57:444][211]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-17.47.57
+[2014.12.13-01.47.57:444][211]LogWorld: Bringing up level for play took: 0.003842
+[2014.12.13-01.47.57:949][211]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 3.544
+[2014.12.13-01.48.16:679][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DB8DA80
+[2014.12.13-01.48.17:926][341]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-01.48.17:926][341]LogPlayLevel: [PIE] Compiling GhostBox before PIE...
+[2014.12.13-01.48.18:133][341]LogPlayLevel: [PIE] Compiling IntersectionSensor before PIE...
+[2014.12.13-01.48.18:223][341]LogPlayLevel: [PIE] Compiling P_Decoy before PIE...
+[2014.12.13-01.48.18:296][341]LogPlayLevel: [PIE] Compiling BasicPickup before PIE...
+[2014.12.13-01.48.18:357][341]LogPlayLevel: [PIE] Compiling TheGrid before PIE...
+[2014.12.13-01.48.18:433][341]LogPlayLevel: [PIE] Compiling P_Double_Speed before PIE...
+[2014.12.13-01.48.18:493][341]LogPlayLevel: [PIE] Compiling Fire_Sphere before PIE...
+[2014.12.13-01.48.18:542][341]LogPlayLevel: [PIE] Compiling P_Invunerability before PIE...
+[2014.12.13-01.48.18:600][341]LogPlayLevel: [PIE] Compiling P_Slow_Epic_Man_Speed_Up_Ghost before PIE...
+[2014.12.13-01.48.18:679][341]LogPlayLevel: [PIE] Compiling P_Slowing_Pit before PIE...
+[2014.12.13-01.48.18:763][341]LogPlayLevel: [PIE] Compiling PowerUpPickup before PIE...
+[2014.12.13-01.48.18:864][341]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-01.48.18:922][341]LogPlayLevel: [PIE] Compiling EpicManHUD before PIE...
+[2014.12.13-01.48.19:053][341]LogPlayLevel: [PIE] Compiling Ghost before PIE...
+[2014.12.13-01.48.19:659][341]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.13-01.48.19:876][341]LogPlayLevel: [PIE] Compiling NoSpawnArea before PIE...
+[2014.12.13-01.48.19:941][341]LogPlayLevel: [PIE] Compiling P_Fire_Wall before PIE...
+[2014.12.13-01.48.20:010][341]LogPlayLevel: [PIE] Compiling LightBlueGhost before PIE...
+[2014.12.13-01.48.20:057][341]LogPlayLevel: [PIE] Compiling OrangeGhost before PIE...
+[2014.12.13-01.48.20:104][341]LogPlayLevel: [PIE] Compiling RedGhost before PIE...
+[2014.12.13-01.48.20:152][341]LogPlayLevel: [PIE] Compiling PinkGhost before PIE...
+[2014.12.13-01.48.20:233][341]LogPlayLevel: PIE:  Blueprint regeneration took 2307 ms (21 blueprints)
+[2014.12.13-01.48.20:234][341]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 9:48:20 AM)
+[2014.12.13-01.48.20:245][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011511s)
+[2014.12.13-01.48.20:246][341]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2014.12.13-01.48.20:246][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.012145s)
+[2014.12.13-01.48.20:271][341]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-01.48.20:272][341]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-01.48.20:275][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-17.48.20
+[2014.12.13-01.48.20:276][341]LogWorld: Bringing up level for play took: 0.003738
+[2014.12.13-01.48.20:801][341]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 2.395
+[2014.12.13-01.48.32:994][ 55]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004844F9C0
+[2014.12.13-01.48.43:900][759]BlueprintLog: New page: Compile P_Decoy
+[2014.12.13-01.48.44:011][759]BlueprintEditorCompileResults: Info [3627.26] Compile of P_Decoy successful! [in 5 ms]
+[2014.12.13-01.48.44:365][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Decoy" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset" SILENT=true
+[2014.12.13-01.48.44:693][761]LogSavePackage: Save=279.220459ms
+[2014.12.13-01.48.44:693][761]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Decoy65C5D87F42067A41D3CCEDBCBCDBA522.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset'
+[2014.12.13-01.51.42:687][ 10]BlueprintLog: New page: Compile P_Decoy
+[2014.12.13-01.51.42:801][ 10]BlueprintEditorCompileResults: Info [3806.04] Compile of P_Decoy successful! [in 6 ms]
+[2014.12.13-01.51.43:530][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Decoy" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset" SILENT=true
+[2014.12.13-01.51.43:863][ 56]LogSavePackage: Save=279.008850ms
+[2014.12.13-01.51.43:863][ 56]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_DecoyD3D7C30B41EA5FCEDAC4DE9B1A83036F.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset'
+[2014.12.13-01.52.43:642][720]BlueprintLog: New page: Compile P_Decoy
+[2014.12.13-01.52.43:781][720]BlueprintEditorCompileResults: Info [3867.00] Compile of P_Decoy successful! [in 6 ms]
+[2014.12.13-01.52.44:257][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Decoy" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset" SILENT=true
+[2014.12.13-01.52.44:595][742]LogSavePackage: Save=281.394501ms
+[2014.12.13-01.52.44:595][742]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Decoy7F3A0B754F07B1609A719F96246DEAD9.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset'
+[2014.12.13-01.53.52:728][337]BlueprintLog: New page: Compile P_Decoy
+[2014.12.13-01.53.52:864][337]BlueprintEditorCompileResults: Info [3936.08] Compile of P_Decoy successful! [in 6 ms]
+[2014.12.13-01.53.53:572][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Decoy" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset" SILENT=true
+[2014.12.13-01.53.53:896][366]LogSavePackage: Save=275.908051ms
+[2014.12.13-01.53.53:896][366]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Decoy25EAD12F43E919F0A401E4A122ADC9C1.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Decoy.uasset'
+[2014.12.13-01.53.55:994][503]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.13-01.53.56:117][503]BlueprintEditorCompileResults: Info [3939.36] Compile of P_Slowing_Pit successful! [in 9 ms]
+[2014.12.13-01.53.56:928][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.13-01.53.57:029][537]LogSavePackage: Save=30.310879ms
+[2014.12.13-01.53.57:029][537]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit3B685C0C4A6137D561CB28A2AA6F1A83.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.13-01.54.01:185][786]LogSavePackage: Save=323.082794ms
+[2014.12.13-01.54.01:185][786]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel94E05ECB4597D8B246D858A701740601.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.13-01.54.02:143][805]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-01.54.02:143][805]LogPlayLevel: [PIE] Compiling GhostBox before PIE...
+[2014.12.13-01.54.02:363][805]LogPlayLevel: [PIE] Compiling IntersectionSensor before PIE...
+[2014.12.13-01.54.02:449][805]LogPlayLevel: [PIE] Compiling BasicPickup before PIE...
+[2014.12.13-01.54.02:511][805]LogPlayLevel: [PIE] Compiling TheGrid before PIE...
+[2014.12.13-01.54.02:589][805]LogPlayLevel: [PIE] Compiling P_Double_Speed before PIE...
+[2014.12.13-01.54.02:650][805]LogPlayLevel: [PIE] Compiling Fire_Sphere before PIE...
+[2014.12.13-01.54.02:700][805]LogPlayLevel: [PIE] Compiling P_Invunerability before PIE...
+[2014.12.13-01.54.02:759][805]LogPlayLevel: [PIE] Compiling P_Slow_Epic_Man_Speed_Up_Ghost before PIE...
+[2014.12.13-01.54.02:832][805]LogPlayLevel: [PIE] Compiling PowerUpPickup before PIE...
+[2014.12.13-01.54.02:932][805]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-01.54.02:992][805]LogPlayLevel: [PIE] Compiling EpicManHUD before PIE...
+[2014.12.13-01.54.03:116][805]LogPlayLevel: [PIE] Compiling Ghost before PIE...
+[2014.12.13-01.54.03:720][805]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.13-01.54.03:944][805]LogPlayLevel: [PIE] Compiling P_Decoy before PIE...
+[2014.12.13-01.54.04:038][805]LogPlayLevel: [PIE] Compiling NoSpawnArea before PIE...
+[2014.12.13-01.54.04:101][805]LogPlayLevel: [PIE] Compiling P_Fire_Wall before PIE...
+[2014.12.13-01.54.04:169][805]LogPlayLevel: [PIE] Compiling LightBlueGhost before PIE...
+[2014.12.13-01.54.04:216][805]LogPlayLevel: [PIE] Compiling OrangeGhost before PIE...
+[2014.12.13-01.54.04:262][805]LogPlayLevel: [PIE] Compiling RedGhost before PIE...
+[2014.12.13-01.54.04:309][805]LogPlayLevel: [PIE] Compiling PinkGhost before PIE...
+[2014.12.13-01.54.04:357][805]LogPlayLevel: [PIE] Compiling P_Slowing_Pit before PIE...
+[2014.12.13-01.54.04:465][805]LogPlayLevel: PIE:  Blueprint regeneration took 2322 ms (21 blueprints)
+[2014.12.13-01.54.04:465][805]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 9:54:04 AM)
+[2014.12.13-01.54.04:475][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009923s)
+[2014.12.13-01.54.04:476][805]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2014.12.13-01.54.04:476][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.010613s)
+[2014.12.13-01.54.04:505][805]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-01.54.04:506][805]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-01.54.04:510][805]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-17.54.04
+[2014.12.13-01.54.04:511][805]LogWorld: Bringing up level for play took: 0.004334
+[2014.12.13-01.54.05:021][805]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 2.608
+[2014.12.13-01.54.14:077][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004EA91E40
+[2014.12.13-01.54.15:294][441]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-01.54.15:294][441]LogPlayLevel: [PIE] Compiling GhostBox before PIE...
+[2014.12.13-01.54.15:520][441]LogPlayLevel: [PIE] Compiling IntersectionSensor before PIE...
+[2014.12.13-01.54.15:606][441]LogPlayLevel: [PIE] Compiling BasicPickup before PIE...
+[2014.12.13-01.54.15:666][441]LogPlayLevel: [PIE] Compiling TheGrid before PIE...
+[2014.12.13-01.54.15:745][441]LogPlayLevel: [PIE] Compiling P_Double_Speed before PIE...
+[2014.12.13-01.54.15:806][441]LogPlayLevel: [PIE] Compiling Fire_Sphere before PIE...
+[2014.12.13-01.54.15:856][441]LogPlayLevel: [PIE] Compiling P_Invunerability before PIE...
+[2014.12.13-01.54.15:914][441]LogPlayLevel: [PIE] Compiling P_Slow_Epic_Man_Speed_Up_Ghost before PIE...
+[2014.12.13-01.54.15:986][441]LogPlayLevel: [PIE] Compiling PowerUpPickup before PIE...
+[2014.12.13-01.54.16:083][441]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-01.54.16:140][441]LogPlayLevel: [PIE] Compiling EpicManHUD before PIE...
+[2014.12.13-01.54.16:268][441]LogPlayLevel: [PIE] Compiling Ghost before PIE...
+[2014.12.13-01.54.16:871][441]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.13-01.54.17:110][441]LogPlayLevel: [PIE] Compiling P_Decoy before PIE...
+[2014.12.13-01.54.17:206][441]LogPlayLevel: [PIE] Compiling NoSpawnArea before PIE...
+[2014.12.13-01.54.17:270][441]LogPlayLevel: [PIE] Compiling P_Fire_Wall before PIE...
+[2014.12.13-01.54.17:336][441]LogPlayLevel: [PIE] Compiling LightBlueGhost before PIE...
+[2014.12.13-01.54.17:383][441]LogPlayLevel: [PIE] Compiling OrangeGhost before PIE...
+[2014.12.13-01.54.17:429][441]LogPlayLevel: [PIE] Compiling RedGhost before PIE...
+[2014.12.13-01.54.17:476][441]LogPlayLevel: [PIE] Compiling PinkGhost before PIE...
+[2014.12.13-01.54.17:525][441]LogPlayLevel: [PIE] Compiling P_Slowing_Pit before PIE...
+[2014.12.13-01.54.17:635][441]LogPlayLevel: PIE:  Blueprint regeneration took 2341 ms (21 blueprints)
+[2014.12.13-01.54.17:635][441]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 9:54:17 AM)
+[2014.12.13-01.54.17:647][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010986s)
+[2014.12.13-01.54.17:647][441]LogPlayLevel: PIE: World Init took: (0.000438s)
+[2014.12.13-01.54.17:647][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011601s)
+[2014.12.13-01.54.17:676][441]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-01.54.17:678][441]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-01.54.17:681][441]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-17.54.17
+[2014.12.13-01.54.17:682][441]LogWorld: Bringing up level for play took: 0.003878
+[2014.12.13-01.54.18:208][441]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 3.794
+[2014.12.13-01.55.01:105][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BB31DA0
+[2014.12.13-01.55.58:412][274]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013237F60
+[2014.12.13-01.55.58:795][274]LogSavePackage: Save=329.495972ms
+[2014.12.13-01.55.58:795][274]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel7B848A064B76F195A640599ACCECD3BB.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.13-02.12.00:565][676]Cmd: QUIT_EDITOR
+[2014.12.13-02.12.00:814][676]LogExit: Preparing to exit.
+[2014.12.13-02.12.01:462][676]LogExit: Editor shut down
+[2014.12.13-02.12.01:462][676]LogExit: Transaction tracking system shut down
+[2014.12.13-02.12.01:463][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022403560
+[2014.12.13-02.12.01:464][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000128687C0
+[2014.12.13-02.12.01:464][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003EA1BEC0
+[2014.12.13-02.12.01:464][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DC7F420
+[2014.12.13-02.12.01:464][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A441DA0
+[2014.12.13-02.12.01:496][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237A9C60
+[2014.12.13-02.12.01:496][676]LogExit: Object subsystem successfully closed.
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module EditorWidgets (165)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module CollectionManager (164)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module SuperSearch (162)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module SceneOutliner (161)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.12.13-02.12.01:532][676]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.12.13-02.12.01:533][676]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.12.13-02.12.01:570][676]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.12.13-02.12.01:672][676]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.12.13-02.12.01:673][676]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.12.13-02.12.01:676][676]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.12.13-02.12.01:676][676]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.12.13-02.12.01:677][676]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.12.13-02.12.01:677][676]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.12.13-02.12.01:677][676]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.12.13-02.12.01:677][676]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.12.13-02.12.01:677][676]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.12.13-02.12.01:677][676]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.13-02.12.01:677][676]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.13-02.12.01:778][676]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.13-02.12.01:778][676]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.13-02.12.01:780][676]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.13-02.12.01:781][676]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.13-02.12.01:829][676]LogDerivedDataCache: Shutdown
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.13-02.12.01:829][676]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.13-02.12.01:830][676]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.13-02.12.01:830][676]LogExit: Exiting.
+[2014.12.13-02.12.01:835][676]Log file closed, 12/12/14 18:12:01

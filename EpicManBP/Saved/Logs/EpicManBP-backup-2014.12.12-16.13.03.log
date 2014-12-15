@@ -1,0 +1,1209 @@
+﻿Log file open, 12/12/14 11:34:30
+LogInit:Display: Running engine for game: EpicManBP
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.12-19.34.30:397][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.12-19.34.30:424][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.12-19.34.30:436][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.12-19.34.30:443][  0]LogInit: Object subsystem initialized
+[2014.12.12-19.34.30:446][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.12-19.34.30:446][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.12-19.34.30:446][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.12-19.34.30:446][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.12-19.34.30:446][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.12-19.34.30:446][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.12-19.34.30:450][  0]LogInit: Computer: XPS3
+[2014.12.12-19.34.30:450][  0]LogInit: User: Maurice
+[2014.12.12-19.34.30:451][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.12-19.34.30:451][  0]LogInit: High frequency timer resolution =3.312705 MHz
+[2014.12.12-19.34.30:451][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx) Virtual=8192.0GB
+[2014.12.12-19.34.30:451][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.12-19.34.30:451][  0]LogMemory: Process Physical Memory: 76.12 MB used, 76.12 MB peak
+[2014.12.12-19.34.30:451][  0]LogMemory: Process Virtual Memory: 51.41 MB used, 51.41 MB peak
+[2014.12.12-19.34.30:451][  0]LogMemory: Physical Memory: 6029.11 MB used, 24527.21 MB total
+[2014.12.12-19.34.30:451][  0]LogMemory: Virtual Memory: 284.41 MB used, 8388608.00 MB total
+[2014.12.12-19.34.30:472][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 (Feature Level 11_0)
+[2014.12.12-19.34.30:472][  0]LogD3D11RHI: Adapter has 1484MB of dedicated video memory, 0MB of dedicated system memory, and 2560MB of shared system memory, 2 output[s]
+[2014.12.12-19.34.30:472][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.12-19.34.30:474][  0]LogRHI: Texture pool is 1039 MB (70% of 1484 MB)
+[2014.12.12-19.34.30:480][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.12-19.34.30:513][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.12-19.34.30:625][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.12-19.34.34:377][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.12-19.34.34:657][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.12-19.34.34:691][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.12-19.34.34:727][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.12-19.34.34:727][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.12-19.34.34:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.12-19.34.34:727][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.12-19.34.34:778][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.12-19.34.34:789][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Maurice/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.12-19.34.34:913][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.12-19.34.34:914][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.12-19.34.35:105][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.12-19.34.35:108][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.12-19.34.35:234][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.12-19.34.35:776][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.12-19.34.35:895][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Maurice/Documents/Unreal Projects/EpicManBP/Binaries/Win64. Error: 0
+[2014.12.12-19.34.35:980][  0]SourceControl: Info Source control is disabled
+[2014.12.12-19.34.35:980][  0]SourceControl: Info Source control is disabled
+[2014.12.12-19.34.35:985][  0]SourceControl: Info Source control is disabled
+[2014.12.12-19.34.36:055][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.12-19.34.36:055][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.12.12-19.34.36:098][  0]LogEngine: Initializing Engine...
+[2014.12.12-19.34.36:194][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.12-19.34.36:217][  0]LogInit: FAudioDevice initialized.
+[2014.12.12-19.34.36:230][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.12-19.34.36:252][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Maurice/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.12-19.34.36:255][  0]LogInit: Texture streaming: Enabled
+[2014.12.12-19.34.36:282][  0]LogInit: Transaction tracking system initialized
+[2014.12.12-19.34.36:337][  0]BlueprintLog: New page: Editor Load
+[2014.12.12-19.34.36:359][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2014.12.12-19.34.36:359][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.12-19.34.36:707][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.12-19.34.36:933][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.12-19.34.37:076][  0]LogConsoleResponse:Display: 
+[2014.12.12-19.34.37:199][  0]SourceControl: Info Source control is disabled
+[2014.12.12-19.34.45:875][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.12-19.34.45:875][  0]LightingResults: New page: Lighting Build
+[2014.12.12-19.34.45:882][  0]MapCheck: New page: Map Check
+[2014.12.12-19.34.45:882][  0]LightingResults: New page: Lighting Build
+[2014.12.12-19.34.45:893][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014559A80
+[2014.12.12-19.34.47:104][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.12-19.34.47:104][  0]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.34.47:104][  0]Cmd: MAP CHECKDEP
+[2014.12.12-19.34.47:105][  0]MapCheck: New page: EpicManLevel - Dec 12, 2014, 3:34:47 AM
+[2014.12.12-19.34.47:185][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.438ms to complete.
+[2014.12.12-19.34.47:185][  0]LogFileHelpers: Loading map 'EpicManLevel' took 1.310
+[2014.12.12-19.34.47:269][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2954_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_1ae8_0///////STATCAT_Advanced////
+[2014.12.12-19.34.47:269][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.12-19.34.47:277][  0]LogCollectionManager: Loaded 0 collections in 0.000662 seconds
+[2014.12.12-19.34.47:475][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.12-19.34.47:499][  0]LogLoad: Full Startup: 19.10 seconds (BP compile: 0.57 seconds)
+[2014.12.12-19.34.47:513][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.12-19.34.47:625][  0]LogRenderer:Warning: Reallocating scene render targets to support 1224x912.
+[2014.12.12-19.34.47:827][  2]LogAssetRegistry: Asset discovery search completed in 11.4787 seconds
+[2014.12.12-19.34.58:561][256]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.34.58:865][270]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.34.59:260][270]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.34.59:293][270]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.34.59:649][270]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.35.03:953][710]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.35.21:190][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.12-19.35.21:190][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.12-19.35.21:190][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.12-19.35.21:190][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.12-19.35.21:190][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.12-19.35.21:190][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.12-19.35.36:888][829]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.35.39:207][959]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.35.41:360][ 76]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.35.41:588][ 76]BlueprintEditorCompileResults: Info [0072.99] Compile of P_Slowing_Pit successful! [in 7 ms]
+[2014.12.12-19.35.44:221][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.35.44:588][202]LogSavePackage: Save=317.094025ms
+[2014.12.12-19.35.44:589][202]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit4CF27B7849E1693968E4E69E17A5B50F.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.35.45:588][257]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.04:448][413]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.04:469][413]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.18:031][266]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.18:052][266]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.21:969][513]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.36.22:099][513]BlueprintEditorCompileResults: Info [0113.59] Compile of P_Slowing_Pit successful! [in 6 ms]
+[2014.12.12-19.36.22:884][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.36.23:227][534]LogSavePackage: Save=312.924042ms
+[2014.12.12-19.36.23:227][534]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitD873C39B40DA0AE2AC2A44A6E61F1875.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.36.29:888][958]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.33:509][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:510][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:511][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:512][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:512][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:512][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:512][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:512][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.33:512][186]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.36.35:781][307]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.49:491][ 42]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.57:496][520]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.36.59:129][614]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.36.59:260][614]BlueprintEditorCompileResults: Info [0150.75] Compile of P_Slowing_Pit successful! [in 6 ms]
+[2014.12.12-19.37.00:202][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.37.00:567][641]LogSavePackage: Save=308.005707ms
+[2014.12.12-19.37.00:567][641]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitBDE6837A428712CD0EF6A08378EEDD31.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.37.01:798][716]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.37.04:487][858]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.37.04:487][858]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.37.04:487][858]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.37.04:487][858]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.37.04:487][858]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.37.04:487][858]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.37.05:197][895]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.37.19:167][718]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.37.25:930][ 96]LogSavePackage: Save=447.959595ms
+[2014.12.12-19.37.25:930][ 96]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevelA11A49794830DBC851EF838B2B755C18.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.37.26:289][ 96]LogFileHelpers: Saving map 'EpicManLevel' took 0.970
+[2014.12.12-19.37.26:303][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.37.26:645][ 96]LogSavePackage: Save=311.757019ms
+[2014.12.12-19.37.26:645][ 96]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitE7B848FF4CC80A54332F82AC0393117E.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.37.27:153][109]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.37.34:359][542]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.37.48:528][336]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.37.48:669][336]BlueprintEditorCompileResults: Info [0200.15] Compile of P_Slowing_Pit successful! [in 7 ms]
+[2014.12.12-19.37.49:217][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.37.49:578][340]LogSavePackage: Save=314.229309ms
+[2014.12.12-19.37.49:578][340]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitD3253091432DEFF616EEFFB40559867F.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.37.51:904][471]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.38.59:019][522]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.39.16:601][627]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.39.31:147][527]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.39.49:577][665]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.39.49:650][665]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.12-19.39.49:692][665]BlueprintEditorCompileResults: Info [0321.20] Compile of P_Slowing_Pit successful! [in 7 ms]
+[2014.12.12-19.39.50:578][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.39.50:941][688]LogSavePackage: Save=313.618622ms
+[2014.12.12-19.39.50:941][688]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitEA99768541A33E2AF1973285A90ED429.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.39.50:977][689]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.39.52:704][791]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.39.54:804][899]LogSavePackage: Save=380.549438ms
+[2014.12.12-19.39.54:804][899]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel0542223849C0C3CFBBBA7897F0D43A60.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.39.55:737][917]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.39.55:737][917]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.12-19.39.55:780][917]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.39.55:860][917]LogPlayLevel: PIE:  Blueprint regeneration took 123 ms (2 blueprints)
+[2014.12.12-19.39.55:860][917]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:39:55 AM)
+[2014.12.12-19.39.55:872][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011153s)
+[2014.12.12-19.39.55:872][917]LogPlayLevel: PIE: World Init took: (0.000397s)
+[2014.12.12-19.39.55:872][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011752s)
+[2014.12.12-19.39.55:914][917]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.39.55:915][917]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.39.55:918][917]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.39.55
+[2014.12.12-19.39.55:919][917]LogWorld: Bringing up level for play took: 0.004189
+[2014.12.12-19.39.56:437][917]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 0.453
+[2014.12.12-19.40.04:700][428]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BF82A20
+[2014.12.12-19.40.11:543][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.40.11:899][849]LogSavePackage: Save=310.411285ms
+[2014.12.12-19.40.11:899][849]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit49F6A7AF430CB56CF9ED69A984C5C101.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.40.12:338][877]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.40.12:445][877]BlueprintEditorCompileResults: Info [0343.96] Compile of P_Slowing_Pit successful! [in 6 ms]
+[2014.12.12-19.40.13:375][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.40.13:715][907]LogSavePackage: Save=310.426361ms
+[2014.12.12-19.40.13:715][907]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitEC1A77AC4A581831170D20AC085D5C58.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.40.16:669][100]LogSavePackage: Save=320.189392ms
+[2014.12.12-19.40.16:669][100]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel7EDD26404F8D73DF674194815A395674.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.40.17:734][132]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.40.17:734][132]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.40.17:809][132]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2014.12.12-19.40.17:809][132]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:40:17 AM)
+[2014.12.12-19.40.17:819][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010502s)
+[2014.12.12-19.40.17:820][132]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2014.12.12-19.40.17:820][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011149s)
+[2014.12.12-19.40.17:849][132]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.40.17:851][132]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.40.17:854][132]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.40.17
+[2014.12.12-19.40.17:855][132]LogWorld: Bringing up level for play took: 0.003872
+[2014.12.12-19.40.18:349][132]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 0.365
+[2014.12.12-19.40.35:635][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013CB0220
+[2014.12.12-19.40.54:507][392]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.40.56:564][518]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.40.56:678][518]BlueprintEditorCompileResults: Info [0388.19] Compile of P_Slowing_Pit successful! [in 7 ms]
+[2014.12.12-19.40.57:409][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.40.57:770][533]LogSavePackage: Save=310.619873ms
+[2014.12.12-19.40.57:770][533]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit474F91524FA6973D823C5085268E5D89.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.40.59:919][668]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.40.59:919][668]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.41.00:001][668]LogPlayLevel: PIE:  Blueprint regeneration took 82 ms (1 blueprints)
+[2014.12.12-19.41.00:001][668]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:41:00 AM)
+[2014.12.12-19.41.00:012][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010705s)
+[2014.12.12-19.41.00:012][668]LogPlayLevel: PIE: World Init took: (0.000386s)
+[2014.12.12-19.41.00:013][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011283s)
+[2014.12.12-19.41.00:039][668]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.41.00:040][668]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.41.00:044][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.41.00
+[2014.12.12-19.41.00:044][668]LogWorld: Bringing up level for play took: 0.003856
+[2014.12.12-19.41.00:539][668]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 0.554
+[2014.12.12-19.41.20:494][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BB2DB20
+[2014.12.12-19.41.26:207][466]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.41.26:313][466]BlueprintEditorCompileResults: Info [0417.83] Compile of P_Slowing_Pit successful! [in 6 ms]
+[2014.12.12-19.41.27:187][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.41.27:564][491]LogSavePackage: Save=312.431091ms
+[2014.12.12-19.41.27:564][491]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit01B7ABB248120AEB14C62893D1116058.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.44.20:635][186]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.44.20:746][186]BlueprintEditorCompileResults: Info [0592.25] Compile of P_Slowing_Pit successful! [in 6 ms]
+[2014.12.12-19.44.21:721][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.44.22:080][215]LogSavePackage: Save=304.989716ms
+[2014.12.12-19.44.22:080][215]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit108699774F2170A6E73E64873459CF25.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.44.28:000][616]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.44.28:112][616]BlueprintEditorCompileResults: Info [0599.62] Compile of P_Slowing_Pit successful! [in 6 ms]
+[2014.12.12-19.44.29:002][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.44.29:348][645]LogSavePackage: Save=315.835846ms
+[2014.12.12-19.44.29:348][645]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitA64C9E53463918C4AE261AA2B97BDFAC.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.44.30:349][710]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.44.30:463][710]BlueprintEditorCompileResults: Info [0601.97] Compile of P_Slowing_Pit successful! [in 7 ms]
+[2014.12.12-19.44.31:369][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.44.31:709][739]LogSavePackage: Save=310.884003ms
+[2014.12.12-19.44.31:709][739]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitBA8CB0124E77F6D52E1502BDEA68236F.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.44.33:575][846]LogSavePackage: Save=322.418976ms
+[2014.12.12-19.44.33:575][846]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel703A412448A071C5BC5DC68BDC33A9A0.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.44.48:618][249]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Pickups'
+[2014.12.12-19.45.11:096][824]LogEnum:Warning: Enum Text EPowerUpType::NewEnumerator6 for Enum EPowerUpType failed to resolve to any value
+[2014.12.12-19.45.11:116][824]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.12-19.45.16:159][428]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.45.27:719][814]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.45.29:390][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/EPowerUpType" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/EPowerUpType.uasset" SILENT=true
+[2014.12.12-19.45.29:442][ 12]LogSavePackage: Save=4.871548ms
+[2014.12.12-19.45.29:442][ 12]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EPowerUpTypeC05F3A644378595E96BB3DA8BB983BF8.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/EPowerUpType.uasset'
+[2014.12.12-19.45.55:558][995]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.45.59:001][390]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.12.12-19.46.11:532][870]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.46.18:648][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.46.18:648][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.46.18:648][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.46.18:648][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.46.18:648][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.46.18:648][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.46.18:648][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-19.46.25:206][446]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.46.37:288][871]BlueprintLog: New page: Compile PowerUpPickup
+[2014.12.12-19.46.37:304][871]LogBlueprint:Error: [compiler] Error Default value '' for  Spawn Transform  is invalid: 'Literal values are not allowed for pass-by-reference parameters.'
+[2014.12.12-19.46.37:304][871]LogBlueprint:Error: [compiler] Error Default value '' for  Spawn Transform  is invalid: 'Literal values are not allowed for pass-by-reference parameters.'
+[2014.12.12-19.46.37:305][871]LogBlueprint:Warning: [compiler] Warning [0728.90] Compile of PowerUpPickup failed. 2 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2014.12.12-19.46.37:465][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AE03E20
+[2014.12.12-19.46.37:482][871]BlueprintEditorCompileResults:Error: Error Default value '' for  Spawn Transform  is invalid: 'Literal values are not allowed for pass-by-reference parameters.'
+[2014.12.12-19.46.37:483][871]BlueprintEditorCompileResults:Error: Error Default value '' for  Spawn Transform  is invalid: 'Literal values are not allowed for pass-by-reference parameters.'
+[2014.12.12-19.46.37:483][871]BlueprintEditorCompileResults:Warning: Warning [0728.90] Compile of PowerUpPickup failed. 2 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2014.12.12-19.46.38:200][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/PowerUpPickup" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUpPickup.uasset" SILENT=true
+[2014.12.12-19.46.38:543][918]LogSavePackage: Save=293.415497ms
+[2014.12.12-19.46.38:543][918]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUpPickup8BD4B8AB4B5651A20E7757B1342A610A.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUpPickup.uasset'
+[2014.12.12-19.46.46:542][840]BlueprintLog: New page: Compile PowerUpPickup
+[2014.12.12-19.46.46:653][840]BlueprintEditorCompileResults: Info [0738.15] Compile of PowerUpPickup successful! [in 6 ms]
+[2014.12.12-19.46.47:398][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/PowerUpPickup" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUpPickup.uasset" SILENT=true
+[2014.12.12-19.46.47:716][889]LogSavePackage: Save=287.899170ms
+[2014.12.12-19.46.47:716][889]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUpPickup7F7AD8BF4171639A4CE11DAEA92AA30A.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUpPickup.uasset'
+[2014.12.12-19.46.51:242][259]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.46.51:369][259]BlueprintEditorCompileResults: Info [0742.87] Compile of P_Slowing_Pit successful! [in 17 ms]
+[2014.12.12-19.46.52:098][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.46.52:461][307]LogSavePackage: Save=320.069855ms
+[2014.12.12-19.46.52:461][307]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit0B0E03CB4DCD31FED4D07DBD537E99C2.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.47.01:279][336]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.47.01:403][336]BlueprintEditorCompileResults: Info [0752.90] Compile of P_Slowing_Pit successful! [in 10 ms]
+[2014.12.12-19.47.02:286][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.47.02:354][435]LogSavePackage: Save=28.596569ms
+[2014.12.12-19.47.02:354][435]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit2D4DD4F1439F4FC83C12E69241F806DA.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.47.16:755][958]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.47.19:747][262]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-19.47.19:870][275]BlueprintLog: New page: Compile P_Slowing_Pit
+[2014.12.12-19.47.20:008][275]BlueprintEditorCompileResults: Info [0771.49] Compile of P_Slowing_Pit successful! [in 8 ms]
+[2014.12.12-19.47.20:602][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/P_Slowing_Pit" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset" SILENT=true
+[2014.12.12-19.47.20:672][307]LogSavePackage: Save=28.369566ms
+[2014.12.12-19.47.20:672][307]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_PitE9A1C10343BB0FB449F6598D6BFEE199.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/P_Slowing_Pit.uasset'
+[2014.12.12-19.47.32:745][644]LogSavePackage: Save=320.408234ms
+[2014.12.12-19.47.32:745][644]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevelA8BD95AC454791898212CE9D48F5D1E3.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.47.34:916][834]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.47.34:916][834]LogPlayLevel: [PIE] Compiling P_Slow_Epic_Man_Speed_Up_Ghost before PIE...
+[2014.12.12-19.47.34:976][834]LogPlayLevel: [PIE] Compiling PowerUpPickup before PIE...
+[2014.12.12-19.47.35:051][834]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.47.35:121][834]LogPlayLevel: PIE:  Blueprint regeneration took 204 ms (3 blueprints)
+[2014.12.12-19.47.35:121][834]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:47:35 AM)
+[2014.12.12-19.47.35:131][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010127s)
+[2014.12.12-19.47.35:132][834]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2014.12.12-19.47.35:132][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.010782s)
+[2014.12.12-19.47.35:156][834]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.47.35:158][834]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.47.35:161][834]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.47.35
+[2014.12.12-19.47.35:162][834]LogWorld: Bringing up level for play took: 0.004007
+[2014.12.12-19.47.35:661][834]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 1.669
+[2014.12.12-19.47.55:926][811]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E97A660
+[2014.12.12-19.47.59:917][206]LogEditorViewport: Clicking on Actor (LMB): PowerUpPickup_C (PowerUpPickup_5)
+[2014.12.12-19.48.07:610][977]LogSavePackage: Save=375.264923ms
+[2014.12.12-19.48.07:610][977]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevelC043E23046E261A7ACB0ECB81B7DEBAB.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Maps/EpicManLevel.umap'
+[2014.12.12-19.48.08:601][ 23]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.12-19.48.08:601][ 23]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.12-19.48.08:674][ 23]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2014.12.12-19.48.08:674][ 23]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 3:48:08 AM)
+[2014.12.12-19.48.08:685][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011271s)
+[2014.12.12-19.48.08:686][ 23]LogPlayLevel: PIE: World Init took: (0.000454s)
+[2014.12.12-19.48.08:686][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011908s)
+[2014.12.12-19.48.08:712][ 23]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.48.08:714][ 23]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.12-19.48.08:717][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-11.48.08
+[2014.12.12-19.48.08:718][ 23]LogWorld: Bringing up level for play took: 0.004034
+[2014.12.12-19.48.09:227][ 23]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 1.234
+[2014.12.12-19.48.44:568][191]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve RetryScreen.umap
+[2014.12.12-19.48.44:608][192]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve RetryScreen.umap
+[2014.12.12-19.48.44:608][192]LogNet: Browse: /Game/Maps/RetryScreen
+[2014.12.12-19.48.44:608][192]LogLoad: LoadMap: /Game/Maps/RetryScreen
+[2014.12.12-19.48.44:668][192]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6EA480
+[2014.12.12-19.48.44:668][192]Cmd: MEM
+[2014.12.12-19.48.44:690][192]LogMemory: Platform Memory Stats for Windows
+[2014.12.12-19.48.44:690][192]LogMemory: Process Physical Memory: 888.45 MB used, 920.90 MB peak
+[2014.12.12-19.48.44:690][192]LogMemory: Process Virtual Memory: 803.23 MB used, 838.19 MB peak
+[2014.12.12-19.48.44:690][192]LogMemory: Physical Memory: 6852.45 MB used, 24527.21 MB total
+[2014.12.12-19.48.44:690][192]LogMemory: Virtual Memory: 1344.20 MB used, 8388608.00 MB total
+[2014.12.12-19.48.44:690][192]LogMemory: 
+[2014.12.12-19.48.44:690][192]Allocator Stats for TBB: (not implemented)
+[2014.12.12-19.48.44:800][192]LogWorld: Game class is 'MyGame_C'
+[2014.12.12-19.48.44:801][192]LogAIModule: Creating AISystem for world RetryScreen
+[2014.12.12-19.48.44:801][192]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RetryScreen.RetryScreen up for play (max tick rate 0) at 2014.12.12-11.48.44
+[2014.12.12-19.48.44:802][192]LogWorld: Bringing up level for play took: 0.000375
+[2014.12.12-19.48.44:802][192]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.12.12-19.48.47:605][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E978B80
+[2014.12.12-19.58.46:254][452]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.025
+[2014.12.12-19.58.46:264][452]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pickups/P_Slow_Epic_Man_Speed_Up_Ghost] ([1] browsable assets)...
+[2014.12.12-19.58.46:278][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/P_Slow_Epic_Man_Speed_Up_Ghost]
+[2014.12.12-19.58.46:358][452]LogSavePackage: Save=22.631958ms
+[2014.12.12-19.58.46:358][452]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slow_Epic_Man_Speed_Up_Ghost_Auto1D88267564FDDB27831DF668D025F92FF.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/P_Slow_Epic_Man_Speed_Up_Ghost_Auto1.uasset'
+[2014.12.12-19.58.46:363][452]LogFileHelpers: Auto-saving content packages took 0.109
+[2014.12.12-23.07.57:067][ 44]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.07.57:067][ 44]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.08.23:315][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.034
+[2014.12.12-23.08.23:324][ 37]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pickups/PowerUp_Child] ([1] browsable assets)...
+[2014.12.12-23.08.23:329][ 37]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/PowerUp_Child]
+[2014.12.12-23.08.23:353][ 37]LogSavePackage: Save=9.901877ms
+[2014.12.12-23.08.23:353][ 37]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_Child_Auto20D03DFDE41364C10667308B84A3544CB.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/PowerUp_Child_Auto2.uasset'
+[2014.12.12-23.08.23:357][ 37]LogFileHelpers: Auto-saving content packages took 0.042
+[2014.12.12-23.08.30:091][845]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.12.12-23.08.30:555][900]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.12-23.08.31:343][992]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.12.12-23.08.32:231][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.12-23.08.33:062][195]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.12.12-23.08.35:842][528]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.12-23.08.36:749][634]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.12-23.08.37:516][724]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Pickups'
+[2014.12.12-23.08.38:361][823]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.12.12-23.10.16:889][439]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.10.17:044][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.12-23.10.17:044][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.12-23.10.17:044][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.12-23.10.17:044][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.12-23.10.17:044][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.12-23.10.17:044][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.12-23.10.20:510][856]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.10.51:929][583]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.10.53:979][821]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.10.57:204][199]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.11.04:998][118]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.11.15:059][324]BlueprintLog: New page: Compile PowerUp_Child
+[2014.12.12-23.11.15:183][324]BlueprintEditorCompileResults: Info [3006.42] Compile of PowerUp_Child successful! [in 0 ms]
+[2014.12.12-23.11.32:231][333]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-23.11.32:231][333]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-23.11.32:231][333]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.12-23.11.32:978][418]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.11.34:290][566]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.11.57:540][835]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.13.06:403][891]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.14.02:769][807]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.14.02:770][807]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.14.02:770][807]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.14.02:770][807]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_131175 or K2Node_CallFunction /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_131175
+[2014.12.12-23.14.02:770][807]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_131175.EdGraphPin_12135) from referencer (EdGraphPin /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_Event_406.EdGraphPin_11678).  Import failed...
+[2014.12.12-23.14.02:770][807]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_131175.EdGraphPin_12135"''
+[2014.12.12-23.14.02:771][807]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_55901 or K2Node_CallFunction /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_55901
+[2014.12.12-23.14.02:771][807]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_55901.EdGraphPin_11967) from referencer (EdGraphPin /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_131175.EdGraphPin_12138).  Import failed...
+[2014.12.12-23.14.02:771][807]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_55901.EdGraphPin_11967"''
+[2014.12.12-23.15.38:716][163]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.12-23.15.42:249][584]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.12.12-23.16.15:137][361]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.12-23.16.15:955][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.12-23.16.48:061][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:061][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:063][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:064][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:064][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:065][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:065][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:065][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:066][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:066][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:067][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.16.48:067][ 92]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.17.16:655][476]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.17.16:748][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.12-23.17.16:748][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.12-23.17.16:748][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.12.12-23.17.16:748][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.12.12-23.17.16:748][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.12.12-23.17.16:748][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.12.12-23.17.29:275][946]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.17.29:494][964]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.17.32:269][297]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.17.41:819][436]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.18.08:108][586]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.18.32:148][465]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.18.33:473][624]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.18.34:239][716]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.18.37:086][ 51]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.18.43:805][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:806][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:808][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:808][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:809][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:809][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:810][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:810][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:811][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:811][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:812][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.43:813][814]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.18.47:326][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DFB9F80
+[2014.12.12-23.18.47:327][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000192FAAC0
+[2014.12.12-23.18.47:330][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030328360
+[2014.12.12-23.18.47:350][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.060
+[2014.12.12-23.18.47:359][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/PowerUp_Child] ([1] browsable assets)...
+[2014.12.12-23.18.47:384][189]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child]
+[2014.12.12-23.18.47:384][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/PowerUp_Child]
+[2014.12.12-23.18.47:678][189]LogSavePackage: Save=272.390991ms
+[2014.12.12-23.18.47:678][189]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_Child_Auto30C2833B54440A478C7B3A0BAA55FE7B7.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/PowerUp_Child_Auto3.uasset'
+[2014.12.12-23.18.47:682][189]LogFileHelpers: Auto-saving content packages took 0.331
+[2014.12.12-23.19.17:906][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:906][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:908][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:909][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:909][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:910][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:910][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:910][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:911][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:911][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:912][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.17:912][775]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.19.55:233][222]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.20.02:126][ 35]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.20.31:545][508]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.20.55:624][382]BlueprintLog: New page: Compile PowerUp_Child
+[2014.12.12-23.20.55:718][382]BlueprintEditorCompileResults: Info [3586.97] Compile of PowerUp_Child successful! [in 0 ms]
+[2014.12.12-23.21.10:435][122]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.12.12-23.21.15:103][673]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.21.24:118][741]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.21.26:864][ 61]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.21.27:006][ 78]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.12.12-23.21.28:221][219]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.12.12-23.21.29:025][306]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.21.30:646][492]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.21.35:130][ 22]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.22.29:769][479]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.22.44:407][199]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.22.49:134][765]BlueprintLog: New page: Compile PowerUp_Child
+[2014.12.12-23.22.49:230][765]BlueprintEditorCompileResults: Info [3700.48] Compile of PowerUp_Child successful! [in 0 ms]
+[2014.12.12-23.22.50:061][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/PowerUp_Child" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUp_Child.uasset" SILENT=true
+[2014.12.12-23.22.50:336][859]LogSavePackage: Save=272.225861ms
+[2014.12.12-23.22.50:336][859]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_ChildA2190CC147F9486F71A57281CEA91660.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUp_Child.uasset'
+[2014.12.12-23.23.46:930][844]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.23.46:930][844]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.23.46:930][844]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.23.46:930][844]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.23.46:930][844]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.23.46:930][844]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.12-23.23.46:930][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_55900 or K2Node_CallFunction /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_55900
+[2014.12.12-23.23.46:930][844]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_55900.EdGraphPin_12081) from referencer (EdGraphPin /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_InputKey_2658.EdGraphPin_11796).  Import failed...
+[2014.12.12-23.23.46:930][844]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_55900.EdGraphPin_12081"''
+[2014.12.12-23.23.46:931][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_55900 or K2Node_CallFunction /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_55900
+[2014.12.12-23.23.46:931][844]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_55900.EdGraphPin_12082) from referencer (EdGraphPin /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_48436.EdGraphPin_12012).  Import failed...
+[2014.12.12-23.23.46:931][844]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_55900.EdGraphPin_12082"''
+[2014.12.12-23.23.46:931][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_51857 or K2Node_CallFunction /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_51857
+[2014.12.12-23.23.46:931][844]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_51857.EdGraphPin_12114) from referencer (EdGraphPin /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_48436.EdGraphPin_12013).  Import failed...
+[2014.12.12-23.23.46:931][844]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_51857.EdGraphPin_12114"''
+[2014.12.12-23.23.46:931][844]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_45015.EdGraphPin_11889) from referencer (EdGraphPin /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_48436.EdGraphPin_12015).  Import failed...
+[2014.12.12-23.23.46:931][844]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_45015.EdGraphPin_11889"''
+[2014.12.12-23.23.46:932][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_VariableSet_933 or K2Node_VariableSet /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_VariableSet_933
+[2014.12.12-23.23.46:932][844]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_VariableSet_933.EdGraphPin_18877) from referencer (EdGraphPin /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_51857.EdGraphPin_12115).  Import failed...
+[2014.12.12-23.23.46:932][844]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_933.EdGraphPin_18877"''
+[2014.12.12-23.23.46:933][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_139310 or K2Node_CallFunction /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_139310
+[2014.12.12-23.23.46:933][844]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Pickups/P_Slowing_Pit.P_Slowing_Pit:EventGraph.K2Node_CallFunction_139310.EdGraphPin_12096) from referencer (EdGraphPin /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child:EventGraph.K2Node_CallFunction_55900.EdGraphPin_12084).  Import failed...
+[2014.12.12-23.23.46:933][844]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_139310.EdGraphPin_12096"''
+[2014.12.12-23.23.46:936][844]LogBlueprint:Warning: [PowerUp_Child] CreatePinForVariable: 'Placed' variable not found. Base class was probably changed.
+[2014.12.12-23.24.13:703][ 45]BlueprintLog: New page: Compile PowerUp_Child
+[2014.12.12-23.24.13:708][ 45]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Placed' for  Set Placed 
+[2014.12.12-23.24.13:709][ 45]LogBlueprint:Error: [compiler] Error The property associated with  Placed  could not be found
+[2014.12.12-23.24.13:709][ 45]LogBlueprint:Warning: [compiler] Warning [3785.05] Compile of PowerUp_Child failed. 1 Fatal Issue(s) 1 Warning(s) [in 1 ms]
+[2014.12.12-23.24.13:853][ 45]BlueprintEditorCompileResults:Warning: Warning Unable to find variable with name 'Placed' for  Set Placed 
+[2014.12.12-23.24.13:853][ 45]BlueprintEditorCompileResults:Error: Error The property associated with  Placed  could not be found
+[2014.12.12-23.24.13:853][ 45]BlueprintEditorCompileResults:Warning: Warning [3785.05] Compile of PowerUp_Child failed. 1 Fatal Issue(s) 1 Warning(s) [in 1 ms]
+[2014.12.12-23.24.38:028][206]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.24.49:901][477]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.24.53:639][913]BlueprintLog: New page: Compile PowerUp_Child
+[2014.12.12-23.24.53:762][913]BlueprintEditorCompileResults: Info [3824.99] Compile of PowerUp_Child successful! [in 1 ms]
+[2014.12.12-23.26.31:112][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.12.12-23.26.48:749][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:749][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:751][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:752][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:752][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:752][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:753][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:753][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:754][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:754][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:755][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.26.48:755][965]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.12.12-23.27.08:034][100]LogRenderer:Warning: Reallocating scene render targets to support 1224x944.
+[2014.12.12-23.27.56:525][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.12.12-23.28.48:608][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000476F8900
+[2014.12.12-23.28.48:609][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E6B3880
+[2014.12.12-23.28.49:079][508]LogSavePackage: Save=389.686676ms
+[2014.12.12-23.28.49:079][508]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel_Auto45D8C971949EF3232932238B86EBC125A.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Maps/EpicManLevel_Auto4.umap'
+[2014.12.12-23.28.49:084][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.507
+[2014.12.12-23.28.49:084][508]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.507
+[2014.12.12-23.28.49:093][508]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pickups/P_Slowing_Pit] ([1] browsable assets)...
+[2014.12.12-23.28.49:102][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/P_Slowing_Pit]
+[2014.12.12-23.28.49:173][508]LogSavePackage: Save=29.417048ms
+[2014.12.12-23.28.49:173][508]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit_Auto442B64F96439C28C25C1B5FA2D57B9EEF.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/P_Slowing_Pit_Auto4.uasset'
+[2014.12.12-23.28.49:185][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/PowerUp_Child] ([1] browsable assets)...
+[2014.12.12-23.28.49:230][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child]
+[2014.12.12-23.28.49:230][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/PowerUp_Child]
+[2014.12.12-23.28.49:561][508]LogSavePackage: Save=277.490448ms
+[2014.12.12-23.28.49:561][508]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_Child_Auto4779CB5D240B94A5D6A7F7AA147637FC8.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/PowerUp_Child_Auto4.uasset'
+[2014.12.12-23.28.49:566][508]LogFileHelpers: Auto-saving content packages took 0.482
+[2014.12.12-23.28.58:755][516]BlueprintLog: New page: Compile PowerUp_Child
+[2014.12.12-23.28.58:861][516]BlueprintEditorCompileResults: Info [4070.10] Compile of PowerUp_Child successful! [in 3 ms]
+[2014.12.12-23.29.00:132][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/PowerUp_Child" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUp_Child.uasset" SILENT=true
+[2014.12.12-23.29.00:445][649]LogSavePackage: Save=281.121613ms
+[2014.12.12-23.29.00:445][649]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_Child7EAC3C9F45E616DC8BBDAC99E364214F.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUp_Child.uasset'
+[2014.12.12-23.38.23:672][ 92]LogRenderer:Warning: Reallocating scene render targets to support 1224x1752.
+[2014.12.12-23.38.26:939][261]LogRenderer:Warning: Reallocating scene render targets to support 1224x1760.
+[2014.12.12-23.38.28:469][336]LogRenderer:Warning: Reallocating scene render targets to support 1224x1784.
+[2014.12.12-23.41.59:155][401]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.42.10:351][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.12.12-23.42.19:683][728]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.038
+[2014.12.12-23.42.19:693][728]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/PowerUp_Child] ([1] browsable assets)...
+[2014.12.12-23.42.19:739][728]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child]
+[2014.12.12-23.42.19:739][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/PowerUp_Child]
+[2014.12.12-23.42.20:075][728]LogSavePackage: Save=275.206512ms
+[2014.12.12-23.42.20:075][728]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_Child_Auto59CE519E94180E483B98540A97E0CA31B.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/PowerUp_Child_Auto5.uasset'
+[2014.12.12-23.42.20:080][728]LogFileHelpers: Auto-saving content packages took 0.397
+[2014.12.12-23.44.03:517][783]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.44.08:498][ 38]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.47.52:141][ 48]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.48.41:542][471]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.12-23.49.09:536][280]LogEditorTransaction: Undo Move Node
+[2014.12.12-23.51.33:983][545]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/AI'
+[2014.12.12-23.52.21:469][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.12.12-23.52.21:469][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.12.12-23.52.21:469][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.12.12-23.52.21:469][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.12.12-23.52.21:469][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.12.12-23.52.21:469][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2014.12.12-23.52.21:992][794]LogSavePackage: Save=399.712921ms
+[2014.12.12-23.52.21:992][794]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/EpicManLevel_Auto6D6701F2646067E1AA78CCF94DC885A7A.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Maps/EpicManLevel_Auto6.umap'
+[2014.12.12-23.52.21:997][794]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.528
+[2014.12.12-23.52.21:997][794]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.528
+[2014.12.12-23.52.22:007][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.12.12-23.52.22:052][794]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.12.12-23.52.22:052][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.12.12-23.52.22:436][794]LogSavePackage: Save=326.915314ms
+[2014.12.12-23.52.22:436][794]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/MyCharacter_Auto6A4C3EA6C43D197D275007AA488018158.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto6.uasset'
+[2014.12.12-23.52.22:454][794]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pickups/P_Slowing_Pit] ([1] browsable assets)...
+[2014.12.12-23.52.22:506][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/P_Slowing_Pit]
+[2014.12.12-23.52.22:583][794]LogSavePackage: Save=30.146360ms
+[2014.12.12-23.52.22:583][794]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/P_Slowing_Pit_Auto6B61F3A18445EBF4C02C48AB675085A23.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/P_Slowing_Pit_Auto6.uasset'
+[2014.12.12-23.52.22:598][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pickups/PowerUp_Child] ([1] browsable assets)...
+[2014.12.12-23.52.22:653][794]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pickups/PowerUp_Child.PowerUp_Child]
+[2014.12.12-23.52.22:653][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/PowerUp_Child]
+[2014.12.12-23.52.22:985][794]LogSavePackage: Save=276.372925ms
+[2014.12.12-23.52.22:985][794]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_Child_Auto673BB136B4F3169D1D250DA93FD9A792A.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/PowerUp_Child_Auto6.uasset'
+[2014.12.12-23.52.22:989][794]LogFileHelpers: Auto-saving content packages took 0.993
+[2014.12.13-00.02.23:482][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2014.12.13-00.02.23:482][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2014.12.13-00.02.23:482][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2014.12.13-00.02.23:482][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2014.12.13-00.02.23:482][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2014.12.13-00.02.23:482][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2014.12.13-00.02.23:521][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EpicManLevel' took 0.039
+[2014.12.13-00.02.23:533][187]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pickups/PowerUp_Child] ([1] browsable assets)...
+[2014.12.13-00.02.23:553][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/PowerUp_Child]
+[2014.12.13-00.02.23:638][187]LogSavePackage: Save=17.707886ms
+[2014.12.13-00.02.23:638][187]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_Child_Auto720F5B046483364E71727E2934A71777E.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Autosaves/Game/Blueprints/Pickups/PowerUp_Child_Auto7.uasset'
+[2014.12.13-00.02.23:643][187]LogFileHelpers: Auto-saving content packages took 0.122
+[2014.12.13-00.04.58:451][ 63]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.13-00.05.30:928][124]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.13-00.05.47:812][776]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.13-00.07.31:768][395]BlueprintLog: New page: Compile PowerUp_Child
+[2014.12.13-00.07.31:868][395]BlueprintEditorCompileResults: Info [6383.07] Compile of PowerUp_Child successful! [in 4 ms]
+[2014.12.13-00.07.32:955][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/PowerUp_Child" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUp_Child.uasset" SILENT=true
+[2014.12.13-00.07.33:284][437]LogSavePackage: Save=276.613525ms
+[2014.12.13-00.07.33:284][437]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_ChildE9A950B54F5D162B64276AA23A96E158.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUp_Child.uasset'
+[2014.12.13-00.07.47:043][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:043][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:043][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:043][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:044][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:045][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:046][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:047][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:048][213]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.07.47:049][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2410 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2410
+[2014.12.13-00.07.47:049][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2449 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2449
+[2014.12.13-00.07.47:049][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2476 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2476
+[2014.12.13-00.07.47:049][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2503 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2503
+[2014.12.13-00.07.47:049][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_11879 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_11879
+[2014.12.13-00.07.47:050][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3330 or K2Node_VariableSet /Game/Blueprints/AI/GhostBox.GhostBox:GhostSpawning.K2Node_VariableSet_3330
+[2014.12.13-00.07.47:050][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3330 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3330
+[2014.12.13-00.07.47:050][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12001 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12001
+[2014.12.13-00.07.47:050][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_616 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_616
+[2014.12.13-00.07.47:051][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_533 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_533
+[2014.12.13-00.07.47:051][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_617
+[2014.12.13-00.07.47:051][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3406 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3406
+[2014.12.13-00.07.47:051][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.07.47:051][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_641 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_641
+[2014.12.13-00.07.47:052][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_526 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_526
+[2014.12.13-00.07.47:052][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3480 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3480
+[2014.12.13-00.07.47:052][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_642
+[2014.12.13-00.07.47:052][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.07.47:052][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_606 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_606
+[2014.12.13-00.07.47:052][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3672 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3672
+[2014.12.13-00.07.47:053][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12001 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12001
+[2014.12.13-00.07.47:053][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.07.47:054][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.07.47:055][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3331 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3331
+[2014.12.13-00.07.47:056][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345369 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345369
+[2014.12.13-00.07.47:056][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345368 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345368
+[2014.12.13-00.07.47:056][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2774 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2774
+[2014.12.13-00.07.47:057][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345367 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345367
+[2014.12.13-00.07.47:058][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345368 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345368
+[2014.12.13-00.07.47:059][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345369 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345369
+[2014.12.13-00.07.47:060][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349540 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349540
+[2014.12.13-00.07.47:060][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3407 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3407
+[2014.12.13-00.07.47:060][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_617
+[2014.12.13-00.07.47:060][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349540 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349540
+[2014.12.13-00.07.47:062][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3407 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3407
+[2014.12.13-00.07.47:062][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_617
+[2014.12.13-00.07.47:063][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349543 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349543
+[2014.12.13-00.07.47:063][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349542 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349542
+[2014.12.13-00.07.47:063][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/GhostBox.GhostBox:GhostSpawning.K2Node_VariableGet_2828
+[2014.12.13-00.07.47:063][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2828
+[2014.12.13-00.07.47:064][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/GhostBox.GhostBox:GhostSpawning.K2Node_VariableGet_2828
+[2014.12.13-00.07.47:064][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2828
+[2014.12.13-00.07.47:064][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349542 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349542
+[2014.12.13-00.07.47:065][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349543 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349543
+[2014.12.13-00.07.47:066][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349544 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349544
+[2014.12.13-00.07.47:067][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2829 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2829
+[2014.12.13-00.07.47:067][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_617
+[2014.12.13-00.07.47:069][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357220 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357220
+[2014.12.13-00.07.47:069][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3481 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3481
+[2014.12.13-00.07.47:069][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_642
+[2014.12.13-00.07.47:070][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357220 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357220
+[2014.12.13-00.07.47:071][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3481 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3481
+[2014.12.13-00.07.47:072][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_642
+[2014.12.13-00.07.47:072][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357223 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357223
+[2014.12.13-00.07.47:072][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357222 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357222
+[2014.12.13-00.07.47:073][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2856 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2856
+[2014.12.13-00.07.47:073][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2856 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2856
+[2014.12.13-00.07.47:073][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357222 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357222
+[2014.12.13-00.07.47:074][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357223 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357223
+[2014.12.13-00.07.47:075][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357224 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357224
+[2014.12.13-00.07.47:076][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2947 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2947
+[2014.12.13-00.07.47:076][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_642
+[2014.12.13-00.07.47:078][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345172 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345172
+[2014.12.13-00.07.47:078][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3188 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3188
+[2014.12.13-00.07.47:078][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_615
+[2014.12.13-00.07.47:079][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345172 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345172
+[2014.12.13-00.07.47:080][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3188 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3188
+[2014.12.13-00.07.47:080][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3621 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3621
+[2014.12.13-00.07.47:081][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_615
+[2014.12.13-00.07.47:081][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_335828 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_335828
+[2014.12.13-00.07.47:082][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2974 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2974
+[2014.12.13-00.07.47:082][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2974 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2974
+[2014.12.13-00.07.47:082][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_335828 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_335828
+[2014.12.13-00.07.47:083][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_337539 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_337539
+[2014.12.13-00.07.47:084][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349234
+[2014.12.13-00.07.47:084][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2824 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2824
+[2014.12.13-00.07.47:085][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_615
+[2014.12.13-00.07.47:086][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3672 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3672
+[2014.12.13-00.07.47:088][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3698 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3698
+[2014.12.13-00.07.47:088][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_3064 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_3064
+[2014.12.13-00.07.47:089][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_14438 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_14438
+[2014.12.13-00.07.47:090][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_967234
+[2014.12.13-00.07.47:091][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_967234
+[2014.12.13-00.07.47:092][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1251 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_EnumLiteral_1251
+[2014.12.13-00.07.47:093][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967235 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_967235
+[2014.12.13-00.07.47:094][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18661 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_18661
+[2014.12.13-00.07.47:094][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1299 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_EnumLiteral_1299
+[2014.12.13-00.07.47:095][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18662 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_18662
+[2014.12.13-00.07.47:095][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1394 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_EnumLiteral_1394
+[2014.12.13-00.07.47:095][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.07.47:096][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18406 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_18406
+[2014.12.13-00.07.47:096][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1442 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_EnumLiteral_1442
+[2014.12.13-00.07.47:096][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.07.57:674][733]Cmd: TRANSACTION UNDO
+[2014.12.13-00.07.57:674][733]LogEditorTransaction: Undo Move Node
+[2014.12.13-00.07.57:776][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2014.12.13-00.07.57:776][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2014.12.13-00.07.57:776][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2014.12.13-00.07.57:776][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2014.12.13-00.07.57:776][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2014.12.13-00.07.59:239][778]Cmd: TRANSACTION UNDO
+[2014.12.13-00.07.59:239][778]LogEditorTransaction: Undo Paste clipboard contents
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:592][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:593][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:594][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:595][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:596][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:597][288]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2410 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2410
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2410 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2410
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2449 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2449
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2449 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2449
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2476 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2476
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2476 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2476
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2503 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2503
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2503 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2503
+[2014.12.13-00.08.07:598][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/IntersectionSensor.IntersectionSensor:BndEvt__Switch_K2Node_ComponentBoundEvent_158_ComponentBeginOverlapSignature__DelegateSignature.K2Node_VariableSet_525 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_525
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_11879 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_11879
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_11879 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_11879
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3331 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3331
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3331 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3331
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_524 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_524
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_524 or K2Node_IfThenElse /Game/Blueprints/MyCharacter.MyCharacter:ExecuteUbergraph_MyCharacter.K2Node_IfThenElse_524
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_524 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_524
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_11879 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_11879
+[2014.12.13-00.08.07:599][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_11879 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_11879
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3330 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3330
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3330 or K2Node_VariableSet /Game/Blueprints/AI/GhostBox.GhostBox:GhostSpawning.K2Node_VariableSet_3330
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3330 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3330
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12001 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_12001
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12001 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12001
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_616 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_616
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_616 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_616
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_533 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_533
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_533 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ExecuteUbergraph_Ghost.K2Node_IfThenElse_533
+[2014.12.13-00.08.07:600][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_533 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_533
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_617
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_617
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3406 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3406
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3406 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3406
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_641 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_641
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_641 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_641
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_526 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_526
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_526 or K2Node_IfThenElse /Game/Blueprints/MyCharacter.MyCharacter:ExecuteUbergraph_MyCharacter.K2Node_IfThenElse_526
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_526 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_526
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3480 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3480
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3480 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3480
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_642
+[2014.12.13-00.08.07:601][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_642
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_606 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_606
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_606 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_606
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3672 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3672
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3672 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3672
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12001 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_12001
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12001 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12001
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.08.07:602][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.08.07:603][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.08.07:603][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.08.07:603][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3331 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3331
+[2014.12.13-00.08.07:603][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3331 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3331
+[2014.12.13-00.08.07:604][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345369 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_345369
+[2014.12.13-00.08.07:604][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345369 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345369
+[2014.12.13-00.08.07:604][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345368 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_345368
+[2014.12.13-00.08.07:604][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345368 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345368
+[2014.12.13-00.08.07:604][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2774 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2774
+[2014.12.13-00.08.07:604][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2774 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2774
+[2014.12.13-00.08.07:605][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345367 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_345367
+[2014.12.13-00.08.07:605][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345367 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345367
+[2014.12.13-00.08.07:605][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345368 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_345368
+[2014.12.13-00.08.07:605][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345368 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345368
+[2014.12.13-00.08.07:606][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345369 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_345369
+[2014.12.13-00.08.07:606][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345369 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345369
+[2014.12.13-00.08.07:607][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349540 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_349540
+[2014.12.13-00.08.07:607][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349540 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349540
+[2014.12.13-00.08.07:607][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3407 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3407
+[2014.12.13-00.08.07:607][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3407 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3407
+[2014.12.13-00.08.07:607][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_617
+[2014.12.13-00.08.07:607][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_617
+[2014.12.13-00.08.07:607][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349540 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_349540
+[2014.12.13-00.08.07:607][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349540 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349540
+[2014.12.13-00.08.07:608][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3407 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3407
+[2014.12.13-00.08.07:608][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3407 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3407
+[2014.12.13-00.08.07:608][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_617
+[2014.12.13-00.08.07:608][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_617
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349543 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_349543
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349543 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349543
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349542 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_349542
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349542 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349542
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2828
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/GhostBox.GhostBox:GhostSpawning.K2Node_VariableGet_2828
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2828
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2828
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/GhostBox.GhostBox:GhostSpawning.K2Node_VariableGet_2828
+[2014.12.13-00.08.07:609][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2828 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2828
+[2014.12.13-00.08.07:610][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349542 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_349542
+[2014.12.13-00.08.07:610][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349542 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349542
+[2014.12.13-00.08.07:610][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349543 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_349543
+[2014.12.13-00.08.07:610][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349543 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349543
+[2014.12.13-00.08.07:611][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349544 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_349544
+[2014.12.13-00.08.07:611][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349544 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349544
+[2014.12.13-00.08.07:612][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2829 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2829
+[2014.12.13-00.08.07:612][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2829 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2829
+[2014.12.13-00.08.07:612][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_617
+[2014.12.13-00.08.07:612][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_617 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_617
+[2014.12.13-00.08.07:613][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357220 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_357220
+[2014.12.13-00.08.07:613][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357220 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357220
+[2014.12.13-00.08.07:613][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3481 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3481
+[2014.12.13-00.08.07:613][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3481 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3481
+[2014.12.13-00.08.07:613][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_642
+[2014.12.13-00.08.07:613][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_642
+[2014.12.13-00.08.07:613][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357220 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_357220
+[2014.12.13-00.08.07:613][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357220 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357220
+[2014.12.13-00.08.07:614][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3481 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3481
+[2014.12.13-00.08.07:614][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3481 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3481
+[2014.12.13-00.08.07:614][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_642
+[2014.12.13-00.08.07:614][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_642
+[2014.12.13-00.08.07:614][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357223 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_357223
+[2014.12.13-00.08.07:614][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357223 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357223
+[2014.12.13-00.08.07:615][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357222 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_357222
+[2014.12.13-00.08.07:615][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357222 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357222
+[2014.12.13-00.08.07:615][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2856 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2856
+[2014.12.13-00.08.07:615][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2856 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2856
+[2014.12.13-00.08.07:615][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2856 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2856
+[2014.12.13-00.08.07:615][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2856 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2856
+[2014.12.13-00.08.07:615][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357222 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_357222
+[2014.12.13-00.08.07:615][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357222 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357222
+[2014.12.13-00.08.07:616][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357223 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_357223
+[2014.12.13-00.08.07:616][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357223 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357223
+[2014.12.13-00.08.07:617][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357224 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_357224
+[2014.12.13-00.08.07:617][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_357224 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_357224
+[2014.12.13-00.08.07:617][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2947 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2947
+[2014.12.13-00.08.07:617][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2947 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2947
+[2014.12.13-00.08.07:617][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_642
+[2014.12.13-00.08.07:617][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_642 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_642
+[2014.12.13-00.08.07:618][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345172 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_345172
+[2014.12.13-00.08.07:618][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345172 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345172
+[2014.12.13-00.08.07:619][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3188 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3188
+[2014.12.13-00.08.07:619][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3188 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3188
+[2014.12.13-00.08.07:619][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_615
+[2014.12.13-00.08.07:619][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_615
+[2014.12.13-00.08.07:619][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345172 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_345172
+[2014.12.13-00.08.07:619][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_345172 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_345172
+[2014.12.13-00.08.07:620][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3188 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3188
+[2014.12.13-00.08.07:620][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3188 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3188
+[2014.12.13-00.08.07:620][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3621 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3621
+[2014.12.13-00.08.07:620][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3621 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3621
+[2014.12.13-00.08.07:620][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_615
+[2014.12.13-00.08.07:620][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_615
+[2014.12.13-00.08.07:621][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_335828 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_335828
+[2014.12.13-00.08.07:621][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_335828 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_335828
+[2014.12.13-00.08.07:621][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2974 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2974
+[2014.12.13-00.08.07:621][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2974 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2974
+[2014.12.13-00.08.07:621][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2974 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2974
+[2014.12.13-00.08.07:621][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2974 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2974
+[2014.12.13-00.08.07:621][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_335828 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_335828
+[2014.12.13-00.08.07:621][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_335828 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_335828
+[2014.12.13-00.08.07:622][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_337539 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_337539
+[2014.12.13-00.08.07:622][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_337539 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_337539
+[2014.12.13-00.08.07:622][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_349234
+[2014.12.13-00.08.07:622][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_349234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_349234
+[2014.12.13-00.08.07:623][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2824 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_2824
+[2014.12.13-00.08.07:623][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_2824 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_2824
+[2014.12.13-00.08.07:623][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_IfThenElse_615
+[2014.12.13-00.08.07:623][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_IfThenElse_615 or K2Node_IfThenElse /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_IfThenElse_615
+[2014.12.13-00.08.07:624][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3672 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3672
+[2014.12.13-00.08.07:624][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3672 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3672
+[2014.12.13-00.08.07:625][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3698 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_3698
+[2014.12.13-00.08.07:625][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_3698 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_3698
+[2014.12.13-00.08.07:625][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_3064 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_3064
+[2014.12.13-00.08.07:625][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_3064 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_3064
+[2014.12.13-00.08.07:626][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_14438 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableSet_14438
+[2014.12.13-00.08.07:626][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableSet_14438 or K2Node_VariableSet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableSet_14438
+[2014.12.13-00.08.07:627][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_967234
+[2014.12.13-00.08.07:627][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_967234
+[2014.12.13-00.08.07:627][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_967234
+[2014.12.13-00.08.07:627][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967234 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_967234
+[2014.12.13-00.08.07:627][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1251 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_EnumLiteral_1251
+[2014.12.13-00.08.07:627][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1251 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_EnumLiteral_1251
+[2014.12.13-00.08.07:628][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967235 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CallFunction_967235
+[2014.12.13-00.08.07:628][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CallFunction_967235 or K2Node_CallFunction /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallFunction_967235
+[2014.12.13-00.08.07:629][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18661 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_18661
+[2014.12.13-00.08.07:629][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18661 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_18661
+[2014.12.13-00.08.07:629][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1299 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_EnumLiteral_1299
+[2014.12.13-00.08.07:629][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1299 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_EnumLiteral_1299
+[2014.12.13-00.08.07:629][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18662 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_18662
+[2014.12.13-00.08.07:629][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18662 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_18662
+[2014.12.13-00.08.07:629][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1394 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_EnumLiteral_1394
+[2014.12.13-00.08.07:629][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1394 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_EnumLiteral_1394
+[2014.12.13-00.08.07:630][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.08.07:630][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12008 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12008
+[2014.12.13-00.08.07:630][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18406 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_VariableGet_18406
+[2014.12.13-00.08.07:630][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_VariableGet_18406 or K2Node_VariableGet /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_VariableGet_18406
+[2014.12.13-00.08.07:630][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1442 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_EnumLiteral_1442
+[2014.12.13-00.08.07:630][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_EnumLiteral_1442 or K2Node_EnumLiteral /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_EnumLiteral_1442
+[2014.12.13-00.08.07:630][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EdGraph_959.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.08.07:630][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:ChooseDirection.K2Node_CommutativeAssociativeBinaryOperator_12015 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_12015
+[2014.12.13-00.08.13:421][556]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.13-00.08.17:453][743]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.12.13-00.08.48:966][114]BlueprintLog: New page: Compile Ghost
+[2014.12.13-00.08.49:714][114]BlueprintEditorCompileResults: Info [6460.40] Compile of Ghost successful! [in 80 ms]
+[2014.12.13-00.08.51:221][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Ghost" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/AI/Ghost.uasset" SILENT=true
+[2014.12.13-00.08.51:614][141]LogSavePackage: Save=356.019928ms
+[2014.12.13-00.08.51:614][141]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/Ghost8C6737CA425F6AE48FD672B807340965.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/AI/Ghost.uasset'
+[2014.12.13-00.10.36:497][905]BlueprintLog: New page: Compile Ghost
+[2014.12.13-00.10.36:715][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2014.12.13-00.10.37:175][905]BlueprintEditorCompileResults: Info [6567.90] Compile of Ghost successful! [in 67 ms]
+[2014.12.13-00.10.38:551][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Ghost" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/AI/Ghost.uasset" SILENT=true
+[2014.12.13-00.10.38:927][937]LogSavePackage: Save=328.359741ms
+[2014.12.13-00.10.38:927][937]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/GhostAE2823964EB6B05CEF61B0B6AF680D02.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/AI/Ghost.uasset'
+[2014.12.13-00.10.46:838][317]BlueprintLog: New page: Compile PowerUp_Child
+[2014.12.13-00.10.46:907][317]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2014.12.13-00.10.46:950][317]BlueprintEditorCompileResults: Info [6578.14] Compile of PowerUp_Child successful! [in 2 ms]
+[2014.12.13-00.10.47:819][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickups/PowerUp_Child" FILE="../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUp_Child.uasset" SILENT=true
+[2014.12.13-00.10.48:135][345]LogSavePackage: Save=282.858582ms
+[2014.12.13-00.10.48:135][345]LogSavePackage: Moving '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Saved/PowerUp_ChildC97A101E4A242343D20630A15BC31618.tmp' to '../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/Pickups/PowerUp_Child.uasset'
+[2014.12.13-00.10.53:977][618]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-00.10.53:977][618]LogPlayLevel: [PIE] Compiling GhostBox before PIE...
+[2014.12.13-00.10.54:194][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2014.12.13-00.10.54:261][618]LogPlayLevel: [PIE] Compiling IntersectionSensor before PIE...
+[2014.12.13-00.10.54:497][618]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.13-00.10.54:741][618]LogPlayLevel: [PIE] Compiling P_Slowing_Pit before PIE...
+[2014.12.13-00.10.54:845][618]LogPlayLevel: [PIE] Compiling Fire_Sphere before PIE...
+[2014.12.13-00.10.54:906][618]LogPlayLevel: [PIE] Compiling P_Slow_Epic_Man_Speed_Up_Ghost before PIE...
+[2014.12.13-00.10.54:979][618]LogPlayLevel: [PIE] Compiling EpicManLevel before PIE...
+[2014.12.13-00.10.55:109][618]LogPlayLevel: [PIE] Compiling Ghost before PIE...
+[2014.12.13-00.10.55:764][618]LogPlayLevel: [PIE] Compiling NoSpawnArea before PIE...
+[2014.12.13-00.10.55:829][618]LogPlayLevel: [PIE] Compiling TheGrid before PIE...
+[2014.12.13-00.10.55:904][618]LogPlayLevel: [PIE] Compiling BasicPickup before PIE...
+[2014.12.13-00.10.55:960][618]LogPlayLevel: [PIE] Compiling P_Double_Speed before PIE...
+[2014.12.13-00.10.56:015][618]LogPlayLevel: [PIE] Compiling P_Invunerability before PIE...
+[2014.12.13-00.10.56:068][618]LogPlayLevel: [PIE] Compiling PowerUpPickup before PIE...
+[2014.12.13-00.10.56:160][618]LogPlayLevel: [PIE] Compiling EpicManHUD before PIE...
+[2014.12.13-00.10.56:282][618]LogPlayLevel: [PIE] Compiling P_Fire_Wall before PIE...
+[2014.12.13-00.10.56:350][618]LogPlayLevel: [PIE] Compiling LightBlueGhost before PIE...
+[2014.12.13-00.10.56:652][618]LogPlayLevel: [PIE] Compiling OrangeGhost before PIE...
+[2014.12.13-00.10.56:947][618]LogPlayLevel: [PIE] Compiling RedGhost before PIE...
+[2014.12.13-00.10.57:244][618]LogPlayLevel: [PIE] Compiling PinkGhost before PIE...
+[2014.12.13-00.10.57:581][618]LogPlayLevel: PIE:  Blueprint regeneration took 3604 ms (20 blueprints)
+[2014.12.13-00.10.57:581][618]PIE: New page: PIE session: EpicManLevel (Dec 12, 2014, 8:10:57 AM)
+[2014.12.13-00.10.57:592][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010738s)
+[2014.12.13-00.10.57:593][618]LogPlayLevel: PIE: World Init took: (0.000436s)
+[2014.12.13-00.10.57:593][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EpicManLevel.EpicManLevel to /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel (0.011356s)
+[2014.12.13-00.10.57:618][618]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-00.10.57:619][618]LogAIModule: Creating AISystem for world EpicManLevel
+[2014.12.13-00.10.57:622][618]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EpicManLevel.EpicManLevel up for play (max tick rate 0) at 2014.12.12-16.10.57
+[2014.12.13-00.10.57:623][618]LogWorld: Bringing up level for play took: 0.003934
+[2014.12.13-00.10.58:134][618]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EpicManLevel 3.839
+[2014.12.13-00.11.58:125][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2014.12.13-00.12.32:880][947]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve RetryScreen.umap
+[2014.12.13-00.12.32:929][948]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve RetryScreen.umap
+[2014.12.13-00.12.32:929][948]LogNet: Browse: /Game/Maps/RetryScreen
+[2014.12.13-00.12.32:929][948]LogLoad: LoadMap: /Game/Maps/RetryScreen
+[2014.12.13-00.12.32:975][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000069A6DBC0
+[2014.12.13-00.12.32:976][948]Cmd: MEM
+[2014.12.13-00.12.33:003][948]LogMemory: Platform Memory Stats for Windows
+[2014.12.13-00.12.33:003][948]LogMemory: Process Physical Memory: 1618.92 MB used, 1620.54 MB peak
+[2014.12.13-00.12.33:003][948]LogMemory: Process Virtual Memory: 1549.45 MB used, 1550.23 MB peak
+[2014.12.13-00.12.33:003][948]LogMemory: Physical Memory: 7972.82 MB used, 24527.21 MB total
+[2014.12.13-00.12.33:003][948]LogMemory: Virtual Memory: 2051.74 MB used, 8388608.00 MB total
+[2014.12.13-00.12.33:003][948]LogMemory: 
+[2014.12.13-00.12.33:003][948]Allocator Stats for TBB: (not implemented)
+[2014.12.13-00.12.33:070][948]LogWorld: Game class is 'MyGame_C'
+[2014.12.13-00.12.33:071][948]LogAIModule: Creating AISystem for world RetryScreen
+[2014.12.13-00.12.33:071][948]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RetryScreen.RetryScreen up for play (max tick rate 0) at 2014.12.12-16.12.33
+[2014.12.13-00.12.33:071][948]LogWorld: Bringing up level for play took: 0.000350
+[2014.12.13-00.12.33:072][948]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.12.13-00.12.39:220][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B37A840
+[2014.12.13-00.12.40:353][430]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.13-00.12.40:353][430]LogPlayLevel: [PIE] Compiling GhostBox before PIE...
+[2014.12.13-00.12.40:417][430]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.12.13-00.12.40:426][430]LogCrashTracker: 
+
+
+[2014.12.13-00.12.40:780][430]LogCrashTracker: 
+
+
+[2014.12.13-00.12.40:780][430]LogWindows: === Critical error: ===
+Assertion failed: !HasAnyFlags(RF_NeedLoad|RF_NeedPostLoad) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectLinker.cpp] [Line: 96] 
+Detaching from existing linker for ../../../../../../Users/Maurice/Documents/Unreal Projects/EpicManBP/Content/Blueprints/AI/Ghost.uasset while object EdGraphPin /Game/Blueprints/AI/Ghost.Ghost:EventGraph.K2Node_CallArrayFunction_1764.EdGraphPin_3328 needs loaded
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefd79940d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feeccb71c4) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feecb498c8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x000007feecb2e892) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007feedd61f84) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007feedcb45d3) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007feedcdf4d1) + 0 bytes [UnknownFile:0]
+UE4Editor-CoreUObject.dll!UnknownFunction (0x000007feedcdeade) + 0 bytes [UnknownFile:0]
+UE4Editor-BlueprintGraph.dll!UnknownFunction (0x000007fee6e5b504) + 0 bytes [UnknownFile:0]
+UE4Editor-BlueprintGraph.dll!UnknownFunction (0x000007fee6df62eb) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee83ceb67) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x000007feed0862b1) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x000007feed086b29) + 0 bytes [UnknownFile:0]
+UE4Editor-KismetCompiler.dll!UnknownFunction (0x000007feed08669e) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee840a9cb) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee7f1875d) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee7f310b6) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee7cae3d1) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x000007fee810f966) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f92a8f4) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2129]
+UE4Editor.exe!GuardedMain() (0x000000013f91f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f91fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x000000013f92bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f92cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x00000000774759ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00000000776ac541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00000000776ac541) + 0 bytes [UnknownFile:0]
+
+
+[2014.12.13-00.12.40:902][430]LogExit: Executing StaticShutdownAfterError
+[2014.12.13-00.12.40:912][430]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.12.13-00.12.40:912][430]Log file closed, 12/12/14 16:12:40

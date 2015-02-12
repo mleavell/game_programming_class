@@ -1,3 +1,8 @@
 SeimRPG
 Player
 EpicManBP/Saved/Backup/*
+EpicManBP/Saved/Config/*
+EpicManBP/Saved/Logs/*
+EpicManBP/Saved/Autosaves/*
+EpicManBP/Intermediate/CachedAssetRegistry.bin
+EpicManBP/Saved/AutoScreenshot.png
